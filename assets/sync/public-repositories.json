@@ -434,16 +434,6 @@
       "topics": []
     },
     {
-      "name": "ShuShuzinhuu-SpotiFLAC-Extractor-Daemon-OMEGA-FORK",
-      "url": "https://github.com/Pierreg99/ShuShuzinhuu-SpotiFLAC-Extractor-Daemon-OMEGA-FORK",
-      "description": "Best Python Spotify to Hi-Res FLAC Downloader Module 2026",
-      "language": null,
-      "fork": true,
-      "archived": false,
-      "stars": 0,
-      "topics": []
-    },
-    {
       "name": "SkyEmu-OMEGA-FORK",
       "url": "https://github.com/Pierreg99/SkyEmu-OMEGA-FORK",
       "description": "Game Boy Advance, Game Boy, Game Boy Color, and DS Emulator",
@@ -644,5 +634,5 @@
       "topics": []
     }
   ],
-  "updatedAt": "2026-10-10T14:39:28+00:00"
+  "updatedAt": "2026-10-11T02:07:01+00:00"
 }
