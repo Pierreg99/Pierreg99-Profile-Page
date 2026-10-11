@@ -224,16 +224,6 @@
       "topics": []
     },
     {
-      "name": "Freedify-OMEGA-FORK",
-      "url": "https://github.com/Pierreg99/Freedify-OMEGA-FORK",
-      "description": "Stream music and podcasts from anywhere. Search songs, albums, artists, podcasts, or paste URLs from Spotify, Bandcamp, Archive.org, Phish.in, and more. Inspired by and built off of Spotiflac by afkarxyz. Like Freedify and want to buy me a coffee or beer? Click link below to donate.",
-      "language": null,
-      "fork": true,
-      "archived": false,
-      "stars": 0,
-      "topics": []
-    },
-    {
       "name": "futuristic-call-of-shooty",
       "url": "https://github.com/Pierreg99/futuristic-call-of-shooty",
       "description": "AAA Tactical Three.js First-Person Shooter Engine - CoD Parity with PBR Sobel Normals, PMREM HDR, Spring Kinetics, Touch Controls and Robotic AI",
@@ -267,16 +257,6 @@
       "name": "Kai-Release-Stream-OMEGA-FORK",
       "url": "https://github.com/Pierreg99/Kai-Release-Stream-OMEGA-FORK",
       "description": "Official distribution hub for Kai. Download the latest APK releases and enable seamless Over-The-Air (OTA) updates for the ad-free content streaming client.",
-      "language": null,
-      "fork": true,
-      "archived": false,
-      "stars": 0,
-      "topics": []
-    },
-    {
-      "name": "KAIOVER9000-OMEGA-FORK",
-      "url": "https://github.com/Pierreg99/KAIOVER9000-OMEGA-FORK",
-      "description": "OpenClaw alternative in your pocket",
       "language": null,
       "fork": true,
       "archived": false,
@@ -327,16 +307,6 @@
       "name": "mangayomi-anime-extensions-OMEGA-FORK",
       "url": "https://github.com/Pierreg99/mangayomi-anime-extensions-OMEGA-FORK",
       "description": "A repo for mangayomi that gets tested regularly. Also works on AnymeX ",
-      "language": null,
-      "fork": true,
-      "archived": false,
-      "stars": 0,
-      "topics": []
-    },
-    {
-      "name": "mixplorer-releases-OMEGA-FORK",
-      "url": "https://github.com/Pierreg99/mixplorer-releases-OMEGA-FORK",
-      "description": "Repository for the releases of the file explorer app MiXplorer.",
       "language": null,
       "fork": true,
       "archived": false,
@@ -634,5 +604,5 @@
       "topics": []
     }
   ],
-  "updatedAt": "2026-10-11T02:07:01+00:00"
+  "updatedAt": "2026-10-11T09:14:13+00:00"
 }
