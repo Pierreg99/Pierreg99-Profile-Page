@@ -34,6 +34,16 @@
       "topics": []
     },
     {
+      "name": "Aero-Resonance-Flyingsimulator",
+      "url": "https://github.com/Pierreg99/Aero-Resonance-Flyingsimulator",
+      "description": "",
+      "language": null,
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
       "name": "Aetherwild",
       "url": "https://github.com/Pierreg99/Aetherwild",
       "description": "Aetherwild: browser creature-collection RPG. Original world, no borrowed creature names.",
@@ -604,5 +614,5 @@
       "topics": []
     }
   ],
-  "updatedAt": "2026-10-11T09:14:13+00:00"
+  "updatedAt": "2026-10-14T07:57:57+00:00"
 }
