@@ -204,16 +204,6 @@
       "topics": []
     },
     {
-      "name": "Dartotsu-Downloader-OMEGA-FORK",
-      "url": "https://github.com/Pierreg99/Dartotsu-Downloader-OMEGA-FORK",
-      "description": "",
-      "language": null,
-      "fork": true,
-      "archived": false,
-      "stars": 0,
-      "topics": []
-    },
-    {
       "name": "e-mail-drafts-free",
       "url": "https://github.com/Pierreg99/e-mail-drafts-free",
       "description": "",
@@ -364,16 +354,6 @@
       "topics": []
     },
     {
-      "name": "Playnite-OMEGA-FORK",
-      "url": "https://github.com/Pierreg99/Playnite-OMEGA-FORK",
-      "description": "Video game library manager with support for wide range of 3rd party libraries and game emulation support, providing one unified interface for your games.",
-      "language": null,
-      "fork": true,
-      "archived": false,
-      "stars": 0,
-      "topics": []
-    },
-    {
       "name": "Pluvia-OMEGA-FORK",
       "url": "https://github.com/Pierreg99/Pluvia-OMEGA-FORK",
       "description": "Lightweight unofficial Steam client for Android",
@@ -404,16 +384,6 @@
       "topics": []
     },
     {
-      "name": "Rhythm-OMEGA-FORK",
-      "url": "https://github.com/Pierreg99/Rhythm-OMEGA-FORK",
-      "description": "Your Music, Your Rhythm. An open-source, privacy-first Android music player featuring a beautiful Material 3 Expressive UI. Built entirely in Kotlin.",
-      "language": null,
-      "fork": true,
-      "archived": false,
-      "stars": 0,
-      "topics": []
-    },
-    {
       "name": "SharpEmuPSV-OMEGA-FORK",
       "url": "https://github.com/Pierreg99/SharpEmuPSV-OMEGA-FORK",
       "description": "An experimental PlayStation 5 emulator for Windows, Linux and macOS.",
@@ -430,7 +400,7 @@
       "language": "C",
       "fork": true,
       "archived": false,
-      "stars": 0,
+      "stars": 1,
       "topics": []
     },
     {
@@ -447,16 +417,6 @@
       "name": "SpotiFLAC-Docker-OMEGA-FORK",
       "url": "https://github.com/Pierreg99/SpotiFLAC-Docker-OMEGA-FORK",
       "description": "Containerized SpotiFLAC with auto-updating via GitHub Actions",
-      "language": null,
-      "fork": true,
-      "archived": false,
-      "stars": 0,
-      "topics": []
-    },
-    {
-      "name": "SpotiFLAC-Extension-OMEGA-FORK",
-      "url": "https://github.com/Pierreg99/SpotiFLAC-Extension-OMEGA-FORK",
-      "description": "Extension Registry for SpotiFLAC-Mobile. Browse, submit, and download community-built extensions.",
       "language": null,
       "fork": true,
       "archived": false,
@@ -594,16 +554,6 @@
       "topics": []
     },
     {
-      "name": "windows_xiaomi_platforms-OMEGA-FORK",
-      "url": "https://github.com/Pierreg99/windows_xiaomi_platforms-OMEGA-FORK",
-      "description": "Windows Drivers for Xiaomi/Redmi/Poco Platforms",
-      "language": null,
-      "fork": true,
-      "archived": false,
-      "stars": 0,
-      "topics": []
-    },
-    {
       "name": "zapstore-OMEGA-FORK",
       "url": "https://github.com/Pierreg99/zapstore-OMEGA-FORK",
       "description": "The open app store",
@@ -624,5 +574,5 @@
       "topics": []
     }
   ],
-  "updatedAt": "2026-10-15T11:59:18+00:00"
+  "updatedAt": "2026-10-18T17:29:58+00:00"
 }
