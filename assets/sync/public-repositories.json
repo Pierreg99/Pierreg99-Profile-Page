@@ -114,26 +114,6 @@
       "topics": []
     },
     {
-      "name": "codepair-OMEGA-FORK",
-      "url": "https://github.com/Pierreg99/codepair-OMEGA-FORK",
-      "description": "Build your own AI-powered collaborative markdown editor in just 5 minutes",
-      "language": "TypeScript",
-      "fork": true,
-      "archived": false,
-      "stars": 0,
-      "topics": []
-    },
-    {
-      "name": "core-termux-OMEGAFORK",
-      "url": "https://github.com/Pierreg99/core-termux-OMEGAFORK",
-      "description": "Turn Termux into a complete development workstation with AI coding agents, a modern code editor, databases, automation, and developer tools.",
-      "language": "Shell",
-      "fork": true,
-      "archived": false,
-      "stars": 0,
-      "topics": []
-    },
-    {
       "name": "CRTW",
       "url": "https://github.com/Pierreg99/CRTW",
       "description": "",
@@ -180,6 +160,16 @@
       "language": "TypeScript",
       "fork": false,
       "archived": false,
+      "stars": 1,
+      "topics": []
+    },
+    {
+      "name": "CryoVoxelArchitectAISTUDIO",
+      "url": "https://github.com/Pierreg99/CryoVoxelArchitectAISTUDIO",
+      "description": "AI STUDIO PROJECT VOXELARCHITECT",
+      "language": "TypeScript",
+      "fork": false,
+      "archived": false,
       "stars": 0,
       "topics": []
     },
@@ -200,7 +190,7 @@
       "language": "JavaScript",
       "fork": false,
       "archived": false,
-      "stars": 0,
+      "stars": 1,
       "topics": []
     },
     {
@@ -259,16 +249,6 @@
       "description": "",
       "language": "JavaScript",
       "fork": false,
-      "archived": false,
-      "stars": 0,
-      "topics": []
-    },
-    {
-      "name": "Kai-Release-Stream-OMEGA-FORK",
-      "url": "https://github.com/Pierreg99/Kai-Release-Stream-OMEGA-FORK",
-      "description": "Official distribution hub for Kai. Download the latest APK releases and enable seamless Over-The-Air (OTA) updates for the ad-free content streaming client.",
-      "language": null,
-      "fork": true,
       "archived": false,
       "stars": 0,
       "topics": []
@@ -574,5 +554,5 @@
       "topics": []
     }
   ],
-  "updatedAt": "2026-10-18T17:29:58+00:00"
+  "updatedAt": "2026-10-19T05:11:28+00:00"
 }
