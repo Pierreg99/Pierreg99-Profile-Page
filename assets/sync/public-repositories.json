@@ -124,6 +124,26 @@
       "topics": []
     },
     {
+      "name": "Cryo-Card-Summoner",
+      "url": "https://github.com/Pierreg99/Cryo-Card-Summoner",
+      "description": "",
+      "language": null,
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "CryoGPTCHATFREEBIE",
+      "url": "https://github.com/Pierreg99/CryoGPTCHATFREEBIE",
+      "description": "",
+      "language": null,
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
       "name": "CryoNexis-Lunar-Eclispe",
       "url": "https://github.com/Pierreg99/CryoNexis-Lunar-Eclispe",
       "description": "",
@@ -554,5 +574,5 @@
       "topics": []
     }
   ],
-  "updatedAt": "2026-10-19T05:11:28+00:00"
+  "updatedAt": "2026-10-19T22:35:32+00:00"
 }
