@@ -127,7 +127,7 @@
       "name": "Cryo-Card-Summoner",
       "url": "https://github.com/Pierreg99/Cryo-Card-Summoner",
       "description": "",
-      "language": null,
+      "language": "JavaScript",
       "fork": false,
       "archived": false,
       "stars": 0,
@@ -137,10 +137,10 @@
       "name": "CryoGPTCHATFREEBIE",
       "url": "https://github.com/Pierreg99/CryoGPTCHATFREEBIE",
       "description": "",
-      "language": null,
+      "language": "JavaScript",
       "fork": false,
       "archived": false,
-      "stars": 0,
+      "stars": 1,
       "topics": []
     },
     {
@@ -574,5 +574,5 @@
       "topics": []
     }
   ],
-  "updatedAt": "2026-10-19T22:35:32+00:00"
+  "updatedAt": "2026-10-20T01:13:20+00:00"
 }
