@@ -124,6 +124,26 @@
       "topics": []
     },
     {
+      "name": "CryNexLunaToolkit",
+      "url": "https://github.com/Pierreg99/CryNexLunaToolkit",
+      "description": "",
+      "language": "JavaScript",
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "CryNexStudio3D-Office",
+      "url": "https://github.com/Pierreg99/CryNexStudio3D-Office",
+      "description": "",
+      "language": "TypeScript",
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
       "name": "Cryo-Card-Summoner",
       "url": "https://github.com/Pierreg99/Cryo-Card-Summoner",
       "description": "",
@@ -328,16 +348,6 @@
       "url": "https://github.com/Pierreg99/Nexo-Jarvis-AI-Futuristic-Assistant-Alpha",
       "description": "Futuristische, browserbasierte AI-Personal-Assistant-Dashboard-Oberfläche mit holografischem Kern, Voice-UI und HUD-Modulen.",
       "language": "TypeScript",
-      "fork": false,
-      "archived": false,
-      "stars": 0,
-      "topics": []
-    },
-    {
-      "name": "Pierreg99-GPAI-CommunityPresent-P-Series",
-      "url": "https://github.com/Pierreg99/Pierreg99-GPAI-CommunityPresent-P-Series",
-      "description": "",
-      "language": "JavaScript",
       "fork": false,
       "archived": false,
       "stars": 0,
@@ -574,5 +584,5 @@
       "topics": []
     }
   ],
-  "updatedAt": "2026-10-21T10:30:46+00:00"
+  "updatedAt": "2026-10-21T19:31:33+00:00"
 }
