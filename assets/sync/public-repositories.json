@@ -24,61 +24,11 @@
       "topics": []
     },
     {
-      "name": "AdrenoToolsDrivers-OMEGA-FORK",
-      "url": "https://github.com/Pierreg99/AdrenoToolsDrivers-OMEGA-FORK",
-      "description": "A repository for Skyline, Strato, Vita3K and Yuzu Android compatible Adreno drivers.",
-      "language": null,
-      "fork": true,
-      "archived": false,
-      "stars": 0,
-      "topics": []
-    },
-    {
-      "name": "Aetherwild",
-      "url": "https://github.com/Pierreg99/Aetherwild",
+      "name": "Aetherwild-Game",
+      "url": "https://github.com/Pierreg99/Aetherwild-Game",
       "description": "Aetherwild: browser creature-collection RPG. Original world, no borrowed creature names.",
       "language": "JavaScript",
       "fork": false,
-      "archived": false,
-      "stars": 0,
-      "topics": []
-    },
-    {
-      "name": "AI-FOR-Everyone-Learn-Docs",
-      "url": "https://github.com/Pierreg99/AI-FOR-Everyone-Learn-Docs",
-      "description": "",
-      "language": "JavaScript",
-      "fork": false,
-      "archived": false,
-      "stars": 1,
-      "topics": []
-    },
-    {
-      "name": "azahar-OMEGA-FORK",
-      "url": "https://github.com/Pierreg99/azahar-OMEGA-FORK",
-      "description": "An open-source 3DS emulator project based on Citra.",
-      "language": "C++",
-      "fork": true,
-      "archived": false,
-      "stars": 0,
-      "topics": []
-    },
-    {
-      "name": "Azahar-OMEGA-FORK-compatibility-list",
-      "url": "https://github.com/Pierreg99/Azahar-OMEGA-FORK-compatibility-list",
-      "description": "The compatibility list for the Azahar emulator",
-      "language": "Shell",
-      "fork": true,
-      "archived": false,
-      "stars": 0,
-      "topics": []
-    },
-    {
-      "name": "AZAHARPLUS-OMEGA-FORK",
-      "url": "https://github.com/Pierreg99/AZAHARPLUS-OMEGA-FORK",
-      "description": "Enhanced Nintendo 3DS emulator with additional features and optimizations",
-      "language": "C++",
-      "fork": true,
       "archived": false,
       "stars": 0,
       "topics": []
@@ -94,16 +44,6 @@
       "topics": []
     },
     {
-      "name": "cloudstream-OMEGA-FORK",
-      "url": "https://github.com/Pierreg99/cloudstream-OMEGA-FORK",
-      "description": "Android app for streaming and downloading media.",
-      "language": "Kotlin",
-      "fork": true,
-      "archived": false,
-      "stars": 0,
-      "topics": []
-    },
-    {
       "name": "CRTW",
       "url": "https://github.com/Pierreg99/CRTW",
       "description": "",
@@ -111,6 +51,26 @@
       "fork": false,
       "archived": false,
       "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "CryNex-AI-Learning-",
+      "url": "https://github.com/Pierreg99/CryNex-AI-Learning-",
+      "description": "",
+      "language": "JavaScript",
+      "fork": false,
+      "archived": false,
+      "stars": 1,
+      "topics": []
+    },
+    {
+      "name": "CryNex-Command-Wiki",
+      "url": "https://github.com/Pierreg99/CryNex-Command-Wiki",
+      "description": "",
+      "language": "CSS",
+      "fork": false,
+      "archived": false,
+      "stars": 1,
       "topics": []
     },
     {
@@ -138,16 +98,6 @@
       "url": "https://github.com/Pierreg99/CryNexStudio3D-Office",
       "description": "",
       "language": "TypeScript",
-      "fork": false,
-      "archived": false,
-      "stars": 0,
-      "topics": []
-    },
-    {
-      "name": "Cryo-Card-Summoner",
-      "url": "https://github.com/Pierreg99/Cryo-Card-Summoner",
-      "description": "",
-      "language": "JavaScript",
       "fork": false,
       "archived": false,
       "stars": 0,
@@ -194,13 +144,13 @@
       "topics": []
     },
     {
-      "name": "cryos-launcher",
-      "url": "https://github.com/Pierreg99/cryos-launcher",
+      "name": "CryOS-Launcher-Concept-Start",
+      "url": "https://github.com/Pierreg99/CryOS-Launcher-Concept-Start",
       "description": "cryOS — CryDroid Launcher OS: fully virtualized phone launcher + CryLinux desktop simulation. One law, many ices.",
       "language": "TypeScript",
       "fork": false,
-      "archived": false,
-      "stars": 1,
+      "archived": true,
+      "stars": 0,
       "topics": []
     },
     {
@@ -304,16 +254,6 @@
       "topics": []
     },
     {
-      "name": "Linux-Windows-Helpful-Commands-DOCS",
-      "url": "https://github.com/Pierreg99/Linux-Windows-Helpful-Commands-DOCS",
-      "description": "",
-      "language": "CSS",
-      "fork": false,
-      "archived": false,
-      "stars": 1,
-      "topics": []
-    },
-    {
       "name": "LSFG-Android-OMEGA-FORK",
       "url": "https://github.com/Pierreg99/LSFG-Android-OMEGA-FORK",
       "description": "Lossless Scaling Frames Generator (LSFG) Application for Android",
@@ -410,7 +350,7 @@
       "language": "C",
       "fork": true,
       "archived": false,
-      "stars": 1,
+      "stars": 0,
       "topics": []
     },
     {
@@ -469,16 +409,6 @@
       "description": "",
       "language": null,
       "fork": true,
-      "archived": false,
-      "stars": 0,
-      "topics": []
-    },
-    {
-      "name": "Streamflixrouge-OMEGA-FORK",
-      "url": "https://github.com/Pierreg99/Streamflixrouge-OMEGA-FORK",
-      "description": "",
-      "language": "Kotlin",
-      "fork": false,
       "archived": false,
       "stars": 0,
       "topics": []
@@ -584,5 +514,5 @@
       "topics": []
     }
   ],
-  "updatedAt": "2026-10-21T19:31:33+00:00"
+  "updatedAt": "2026-10-21T22:39:09+00:00"
 }
