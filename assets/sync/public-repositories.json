@@ -34,16 +34,6 @@
       "topics": []
     },
     {
-      "name": "Aero-Resonance-Flyingsimulator",
-      "url": "https://github.com/Pierreg99/Aero-Resonance-Flyingsimulator",
-      "description": "",
-      "language": null,
-      "fork": false,
-      "archived": false,
-      "stars": 0,
-      "topics": []
-    },
-    {
       "name": "Aetherwild",
       "url": "https://github.com/Pierreg99/Aetherwild",
       "description": "Aetherwild: browser creature-collection RPG. Original world, no borrowed creature names.",
@@ -118,6 +108,16 @@
       "url": "https://github.com/Pierreg99/CRTW",
       "description": "",
       "language": "Python",
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
+      "name": "CRYNEX-MCP-LAB",
+      "url": "https://github.com/Pierreg99/CRYNEX-MCP-LAB",
+      "description": "",
+      "language": "TypeScript",
       "fork": false,
       "archived": false,
       "stars": 0,
@@ -574,5 +574,5 @@
       "topics": []
     }
   ],
-  "updatedAt": "2026-10-20T01:13:20+00:00"
+  "updatedAt": "2026-10-21T10:30:46+00:00"
 }
