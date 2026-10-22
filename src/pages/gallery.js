@@ -6,6 +6,15 @@ import { motionAssets, vectorAssets, conceptAssets } from "../data/assets.js";
 import { projectActions, previewLabel } from "../components/projects.js";
 import { t, escapeHtml } from "../lib/html.js";
 
+function motionOriginalLinks(root, asset) {
+  const href = `${root}assets/animations/${asset.name}.gif`;
+  const title = escapeHtml(asset.title);
+  return `<div class="project-links motion-links">
+    <a class="text-link" href="${href}" target="_blank" rel="noopener noreferrer">${t("gallery.viewOriginal", "View animated GIF")}<span class="sr-only"> — ${title}</span>${icon("arrow")}</a>
+    <a class="text-link" href="${href}" download>${t("gallery.original", "Download original GIF")}<span class="sr-only"> — ${title}</span>${icon("download")}</a>
+  </div>`;
+}
+
 export function gallery({ projects }) {
   const root = "../";
   const content = /* HTML */ `<div class="container page-content">
@@ -85,20 +94,7 @@ export function gallery({ projects }) {
                   <p>
                     ${t(`gallery.${asset.name}.description`, asset.description)}
                   </p>
-                  <div class="project-links motion-links">
-                    <a
-                      class="text-link"
-                      href="${root}assets/animations/${asset.name}.gif"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      >${t("gallery.viewOriginal", "View animated GIF")}<span class="sr-only"> — ${escapeHtml(asset.title)}</span>${icon("arrow")}</a
-                    ><a
-                      class="text-link"
-                      href="${root}assets/animations/${asset.name}.gif"
-                      download
-                      >${t("gallery.original", "Download original GIF")}<span class="sr-only"> — ${escapeHtml(asset.title)}</span>${icon("download")}</a
-                    >
-                  </div>
+                  ${motionOriginalLinks(root, asset)}
                 </div>
               </article>`,
           )
