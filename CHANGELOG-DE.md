@@ -3,6 +3,7 @@
 ## 22.10.2026
 
 ### GIF-Visual-V2
+- Gemeinsamen Übersetzungs-Helper wiederverwendet und die Template-Einrückung nach der Formatierungsprüfung korrigiert.
 - Für jedes Original-GIF gibt es jetzt getrennte Links zum direkten Ansehen im Browser und zum Herunterladen.
 - Animationslinks haben eindeutige zugängliche Namen; ein Browser-Regressionstest prüft die echte GIF-Auslieferung.
 - Dokumentiert sind Original-GIF, optimiertes MP4, Standbild und das Verhalten bei reduzierter Bewegung.

@@ -3,6 +3,7 @@
 ## 2026-10-22
 
 ### GIF Visual V2
+- Reused the shared translation helper and restored template indentation after formatting review.
 - Added separate in-browser viewing and direct-download links for each original animated GIF.
 - Made motion links uniquely named for assistive technology and added a browser regression test for the original GIF response.
 - Documented the source-GIF / optimized-MP4 / poster delivery model and reduced-motion behavior.
