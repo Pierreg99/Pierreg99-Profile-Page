@@ -84,16 +84,6 @@
       "topics": []
     },
     {
-      "name": "CryNexStudio3D-Office",
-      "url": "https://github.com/Pierreg99/CryNexStudio3D-Office",
-      "description": "",
-      "language": "TypeScript",
-      "fork": false,
-      "archived": false,
-      "stars": 0,
-      "topics": []
-    },
-    {
       "name": "CryoGPTCHATFREEBIE",
       "url": "https://github.com/Pierreg99/CryoGPTCHATFREEBIE",
       "description": "",
@@ -170,7 +160,7 @@
       "language": "JavaScript",
       "fork": false,
       "archived": false,
-      "stars": 1,
+      "stars": 0,
       "topics": []
     },
     {
@@ -494,5 +484,5 @@
       "topics": []
     }
   ],
-  "updatedAt": "2026-10-22T14:02:54+00:00"
+  "updatedAt": "2026-10-22T18:44:49+00:00"
 }
