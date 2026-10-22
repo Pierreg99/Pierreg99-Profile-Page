@@ -91,13 +91,12 @@ ${t("gallery.notice", "Concept artwork and historical visual studies. Choose pla
                       href="${root}assets/animations/${asset.name}.gif"
                       target="_blank"
                       rel="noopener noreferrer"
-                      ><span data-i18n="gallery.viewOriginal">${t("gallery.viewOriginal", "View animated GIF")}</span> — ${asset.title}${icon("arrow")}</a
-                    >
-                    <a
+                      >${t("gallery.viewOriginal", "View animated GIF")}<span class="sr-only"> — ${escapeHtml(asset.title)}</span>${icon("arrow")}</a
+                    ><a
                       class="text-link"
                       href="${root}assets/animations/${asset.name}.gif"
                       download
-                      ><span data-i18n="gallery.original">${t("gallery.original", "Download original GIF")}</span> — ${asset.title}${icon("download")}</a
+                      >${t("gallery.original", "Download original GIF")}<span class="sr-only"> — ${escapeHtml(asset.title)}</span>${icon("download")}</a
                     >
                   </div>
                 </div>
