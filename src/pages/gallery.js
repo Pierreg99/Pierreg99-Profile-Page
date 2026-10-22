@@ -59,10 +59,7 @@ export function gallery({ projects }) {
     <div class="notice">
       ${icon("spark")}
       <p>
-        ${t(
-          "gallery.notice",
-          "Every scene starts as a still. Play uses the optimized local MP4; open the original GIF in a new tab or download it. Playback is opt-in and respects reduced-motion.",
-        )}
+${t("gallery.notice", "Concept artwork and historical visual studies. Choose play to explore an animation; every scene starts as a still.")}
       </p>
     </div>
     <section aria-labelledby="motion-title">
@@ -94,18 +91,13 @@ export function gallery({ projects }) {
                       href="${root}assets/animations/${asset.name}.gif"
                       target="_blank"
                       rel="noopener noreferrer"
-                      ><span data-i18n="gallery.viewOriginal"
-                        >${t("gallery.viewOriginal", "View animated GIF")}</span
-                      ><span>${asset.title}</span
-                      >${icon("arrow")}</a
-                    ><a
+                      ><span data-i18n="gallery.viewOriginal">${t("gallery.viewOriginal", "View animated GIF")}</span> — ${asset.title}${icon("arrow")}</a
+                    >
+                    <a
                       class="text-link"
                       href="${root}assets/animations/${asset.name}.gif"
                       download
-                      ><span data-i18n="gallery.original"
-                        >${t("gallery.original", "Download original GIF")}</span
-                      ><span>${asset.title}</span
-                      >${icon("download")}</a
+                      ><span data-i18n="gallery.original">${t("gallery.original", "Download original GIF")}</span> — ${asset.title}${icon("download")}</a
                     >
                   </div>
                 </div>
