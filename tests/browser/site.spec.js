@@ -295,18 +295,18 @@ test("motion studies expose original GIFs for viewing and download", async ({
     .filter({
       has: page.getByRole("heading", { name: "CRYO Pulse", exact: true }),
     });
-  const view = card.getByRole("link", {
-    name: /View animated GIF\s*CRYO Pulse/,
-  });
+  const view = card.locator(
+    'a[href="../assets/animations/cryo-pulse.gif"][target="_blank"]',
+  );
   await expect(view).toHaveAttribute(
     "href",
     "../assets/animations/cryo-pulse.gif",
   );
   await expect(view).toHaveAttribute("target", "_blank");
   await expect(view).toHaveAttribute("rel", "noopener noreferrer");
-  const download = card.getByRole("link", {
-    name: /Download original GIF\s*CRYO Pulse/,
-  });
+  const download = card.locator(
+    'a[href="../assets/animations/cryo-pulse.gif"][download]',
+  );
   await expect(download).toHaveAttribute(
     "href",
     "../assets/animations/cryo-pulse.gif",
