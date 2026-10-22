@@ -44,16 +44,6 @@
       "topics": []
     },
     {
-      "name": "CRTW",
-      "url": "https://github.com/Pierreg99/CRTW",
-      "description": "",
-      "language": "Python",
-      "fork": false,
-      "archived": false,
-      "stars": 0,
-      "topics": []
-    },
-    {
       "name": "CryNex-AI-Learning-",
       "url": "https://github.com/Pierreg99/CryNex-AI-Learning-",
       "description": "",
@@ -404,16 +394,6 @@
       "topics": []
     },
     {
-      "name": "Streamflix-OMEGA-FORK",
-      "url": "https://github.com/Pierreg99/Streamflix-OMEGA-FORK",
-      "description": "",
-      "language": null,
-      "fork": true,
-      "archived": false,
-      "stars": 0,
-      "topics": []
-    },
-    {
       "name": "termux-ai-app-OMEGA-FORK",
       "url": "https://github.com/Pierreg99/termux-ai-app-OMEGA-FORK",
       "description": "Termux AI Terminal App with Claude Code integration - Android app with AI-powered terminal features",
@@ -514,5 +494,5 @@
       "topics": []
     }
   ],
-  "updatedAt": "2026-10-21T22:39:09+00:00"
+  "updatedAt": "2026-10-22T14:02:54+00:00"
 }

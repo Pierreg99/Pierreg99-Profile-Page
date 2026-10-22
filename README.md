@@ -11,8 +11,8 @@
 
 <p>
   <a href="https://github.com/Pierreg99/Pierreg99-Profile-Page/actions/workflows/deploy-pages.yml"><img src="https://github.com/Pierreg99/Pierreg99-Profile-Page/actions/workflows/deploy-pages.yml/badge.svg?branch=main" alt="Validate and Deploy CRYO Profile workflow"></a>
-  <a href="https://github.com/Pierreg99/Pierreg99-Profile-Page"><img src="https://img.shields.io/badge/Public%20inventory-51-111827?style=flat-square" alt="Public repository inventory"></a>
-  <a href="https://github.com/Pierreg99/progress"><img src="https://img.shields.io/badge/Account%20sync-110%20repos-111827?style=flat-square" alt="Aggregate account sync status"></a>
+  <a href="https://github.com/Pierreg99/Pierreg99-Profile-Page"><img src="https://img.shields.io/badge/Public%20inventory-49-111827?style=flat-square" alt="Public repository inventory"></a>
+  <a href="https://github.com/Pierreg99/progress"><img src="https://img.shields.io/badge/Account%20sync-108%20repos-111827?style=flat-square" alt="Aggregate account sync status"></a>
 </p>
 
 </div>
@@ -88,7 +88,7 @@ The GIFs above are the versioned original assets. In the [visual laboratory](htt
 ## Öffentlicher Bestand / Public inventory
 
 <!-- inventory:start -->
-The synchronized inventory contains **51 public repositories**. The account summary records **110 repositories** (**59 private**); private names are never published. The public list comes from GitHub's public user API; the private count is a preserved aggregate from the progress hub.
+The synchronized inventory contains **49 public repositories**. The account summary records **108 repositories** (**59 private**); private names are never published. The public list comes from GitHub's public user API; the private count is a preserved aggregate from the progress hub.
 <!-- inventory:end -->
 
 Der Snapshot, die Account-Zusammenfassung und die Sprachdaten lassen sich einzeln prüfen. / The snapshot, aggregate account summary, and language data are independently inspectable.
