@@ -5,7 +5,8 @@
 <p>
   <a href="https://pierreg99.github.io/Pierreg99-Profile-Page/">Live-Portfolio</a> ·
   <a href="https://pierreg99.github.io/Pierreg99-Profile-Page/docs/animation-gallery.html">Visuelles Labor / Visual laboratory</a> ·
-  <a href="./docs/README.md">Dokumentation / Documentation</a>
+  <a href="./docs/README.md">Dokumentation / Documentation</a> ·
+  <a href="./assets/cryo-header.svg">Kanonischer CRYO-Header / Canonical identity vector</a>
 </p>
 
 <p>
