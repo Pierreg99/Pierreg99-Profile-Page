@@ -59,7 +59,7 @@ export function gallery({ projects }) {
     <div class="notice">
       ${icon("spark")}
       <p>
-${t("gallery.notice", "Concept artwork and historical visual studies. Choose play to explore an animation; every scene starts as a still.")}
+        ${t("gallery.notice", "Concept artwork and historical visual studies. Choose play to explore an animation; every scene starts as a still.")}
       </p>
     </div>
     <section aria-labelledby="motion-title">
