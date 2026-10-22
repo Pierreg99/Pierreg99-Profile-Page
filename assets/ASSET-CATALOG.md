@@ -59,7 +59,17 @@ Edited on 2026-10-03 from the matching project visuals; [editing notes and prove
 
 
 
-The animation layer is repository-native and dependency-free. The central integration page is [`docs/animation-gallery.html`](https://pierreg99.github.io/Pierreg99-Pierreg99-Profile-Page/docs/animation-gallery.html).
+The animation layer is repository-native and dependency-free. The central integration page is [the live visual laboratory](https://pierreg99.github.io/Pierreg99-Profile-Page/docs/animation-gallery.html).
+
+## Animation delivery
+
+- The GIF files in `animations/` are the original, version-controlled animated assets.
+- The README showcases Pulse and Orbit directly; the full gallery exposes all five originals.
+- Gallery playback uses a locally transcoded MP4 and a still poster. Video sources are loaded only after a visitor starts playback.
+- Each motion card includes both **View animated GIF** (opens the original in a new tab) and **Download original GIF**.
+- The video interaction respects the browser's reduced-motion preference and stops when the card leaves view or the page becomes hidden.
+
+The stills, MP4 derivatives, and optimized WebP posters are build output; source GIFs remain the canonical visual record.
 
 ## Presentation hierarchy
 

@@ -2,6 +2,12 @@
 
 ## 2026-10-22
 
+### GIF Visual V2
+- Added separate in-browser viewing and direct-download links for each original animated GIF.
+- Made motion links uniquely named for assistive technology and added a browser regression test for the original GIF response.
+- Documented the source-GIF / optimized-MP4 / poster delivery model and reduced-motion behavior.
+
+
 ### Pages QA / current repository inventory
 - Restored four evidence-backed featured projects from the live public repository snapshot.
 - Updated browser tests to verify current project links, images, search filters, and translated controls.

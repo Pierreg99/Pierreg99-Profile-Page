@@ -285,6 +285,40 @@ test("motion is deferred and reduced-motion stops active playback", async ({
   await expect(button).toHaveAttribute("aria-pressed", "false");
 });
 
+test("motion studies expose original GIFs for viewing and download", async ({
+  page,
+}) => {
+  await page.goto("docs/animation-gallery.html");
+  await page.locator('[data-locale="en"]').click();
+  const card = page
+    .locator('section[aria-labelledby="motion-title"] .gallery-card')
+    .filter({
+      has: page.getByRole("heading", { name: "CRYO Pulse", exact: true }),
+    });
+  const view = card.getByRole("link", {
+    name: /View animated GIF\s*CRYO Pulse/,
+  });
+  await expect(view).toHaveAttribute(
+    "href",
+    "../assets/animations/cryo-pulse.gif",
+  );
+  await expect(view).toHaveAttribute("target", "_blank");
+  await expect(view).toHaveAttribute("rel", "noopener noreferrer");
+  const download = card.getByRole("link", {
+    name: /Download original GIF\s*CRYO Pulse/,
+  });
+  await expect(download).toHaveAttribute(
+    "href",
+    "../assets/animations/cryo-pulse.gif",
+  );
+  await expect(download).toHaveAttribute("download", "");
+  const response = await page.request.get(
+    new URL("../assets/animations/cryo-pulse.gif", page.url()).href,
+  );
+  expect(response.ok()).toBe(true);
+  expect(response.headers()["content-type"]).toContain("image/gif");
+});
+
 test("every generated route returns HTML and research exports retain original data", async ({
   request,
 }) => {

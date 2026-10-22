@@ -2,6 +2,12 @@
 
 ## 22.10.2026
 
+### GIF-Visual-V2
+- Für jedes Original-GIF gibt es jetzt getrennte Links zum direkten Ansehen im Browser und zum Herunterladen.
+- Animationslinks haben eindeutige zugängliche Namen; ein Browser-Regressionstest prüft die echte GIF-Auslieferung.
+- Dokumentiert sind Original-GIF, optimiertes MP4, Standbild und das Verhalten bei reduzierter Bewegung.
+
+
 ### Pages-QA / aktueller Repository-Bestand
 - Vier belegte Featured-Projekte aus dem aktuellen öffentlichen Repository-Snapshot wiederhergestellt.
 - Browserprüfungen auf aktuelle Projektlinks, Bildpfade, Suchfilter und übersetzte Steuerungen ausgerichtet.

@@ -152,13 +152,14 @@ export const de = {
   "gallery.description":
     "Ein Blick in die Projekte und danach in die Kunst und Bewegungsstudien hinter dem CRYO-Workspace.",
   "gallery.notice":
-    "Konzeptkunst und historische visuelle Studien. Jede Szene startet als Standbild; Animationen kannst du gezielt abspielen.",
+    "Jede Szene startet als Standbild. Die Wiedergabe nutzt das optimierte lokale MP4; das Original-GIF lässt sich in einem neuen Tab ansehen oder herunterladen. Animationen starten nur auf Wunsch und respektieren reduzierte Bewegung.",
   "gallery.motion": "Von der Ruhe zur Bewegung.",
   "gallery.stills": "Bilder aus dem Workspace.",
   "gallery.vectors": "Struktur wird sichtbar.",
   "gallery.archive":
     "Die Identitätsgrafiken sind aktuell. Weitere Studien bewahren ihren Kontext vom September 2026 mit historischen Zahlen und redaktionellen Bewertungen.",
-  "gallery.original": "Original-GIF",
+  "gallery.viewOriginal": "GIF ansehen",
+  "gallery.original": "Original-GIF herunterladen",
   "languages.eyebrow": "CRYO / ÖFFENTLICHE SPRACHDATEN",
   "languages.title": "Die Sprachen hinter den Ideen.",
   "languages.description":
