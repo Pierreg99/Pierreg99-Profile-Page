@@ -18,8 +18,6 @@ export const projectDetails = {
     liveUrl:
       "https://pierreg99.github.io/ResidentLovely-Maximum-Hapiness-Game/",
     action: "play",
-    featured: 1,
-    number: "01",
   },
   "KiBlox-VoxelGame": {
     title: "KiBlox",
@@ -38,8 +36,6 @@ export const projectDetails = {
     tags: ["TypeScript", "Three.js", "Voxels"],
     liveUrl: "https://pierreg99.github.io/KiBlox-VoxelGame/",
     action: "play",
-    featured: 2,
-    number: "02",
   },
   "cryos-launcher": {
     title: "cryOS",
@@ -58,8 +54,6 @@ export const projectDetails = {
     tags: ["TypeScript", "Desktop UI", "Simulation"],
     liveUrl: "https://pierreg99.github.io/cryos-launcher/",
     action: "explore",
-    featured: 3,
-    number: "03",
   },
   CryAIPulse: {
     title: "CryAIPulse",
@@ -78,8 +72,6 @@ export const projectDetails = {
     tags: ["JavaScript", "Canvas", "Visualization"],
     liveUrl: "https://pierreg99.github.io/CryAIPulse/",
     action: "explore",
-    featured: 4,
-    number: "04",
   },
   "Cryoplane-Polygonal-Flight": {
     title: "Cryoplane",
@@ -95,6 +87,8 @@ export const projectDetails = {
     tags: ["TypeScript", "Flight", "Three.js"],
     liveUrl: "https://pierreg99.github.io/Cryoplane-Polygonal-Flight/",
     action: "play",
+    featured: 1,
+    number: "01",
   },
   "Cyberdash-Rhythm-Platformer-GAME": {
     title: "Cyberdash",
@@ -110,6 +104,8 @@ export const projectDetails = {
     tags: ["JavaScript", "Rhythm", "Level editor"],
     liveUrl: "https://pierreg99.github.io/Cyberdash-Rhythm-Platformer-GAME/",
     action: "play",
+    featured: 2,
+    number: "02",
   },
   "call-of-groky": {
     title: "Call of Groky",
@@ -125,6 +121,8 @@ export const projectDetails = {
     tags: ["TypeScript", "Three.js", "FPS"],
     liveUrl: "https://pierreg99.github.io/call-of-groky/",
     action: "play",
+    featured: 3,
+    number: "03",
   },
   "futuristic-call-of-shooty": {
     title: "Call of Shooty",
@@ -196,8 +194,10 @@ export const projectDetails = {
     tags: ["Progress", "Public data", "Research"],
     liveUrl: "https://pierreg99.github.io/progress/",
     action: "explore",
+    featured: 4,
+    number: "04",
   },
-  "Pierreg99-Pierreg99-Profile-Page": {
+  "Pierreg99-Profile-Page": {
     title: "CRYO Portfolio",
     domain: "web",
     image: "projects/portfolio",
@@ -209,7 +209,7 @@ export const projectDetails = {
     descriptionDe:
       "Das zweisprachige Zuhause dieser Projekte: modulare statische Seiten, durchsuchbare Repositories, barrierearme Interaktionen und optimierte Medien.",
     tags: ["JavaScript", "Accessibility", "Static site"],
-    liveUrl: "https://pierreg99.github.io/Pierreg99-Pierreg99-Profile-Page/",
+    liveUrl: "https://pierreg99.github.io/Pierreg99-Profile-Page/",
     action: "explore",
   },
   "Streamflixrouge-OMEGA-FORK": {

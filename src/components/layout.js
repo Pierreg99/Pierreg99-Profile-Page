@@ -31,7 +31,7 @@ export function layout({
         <meta property="og:description" content="${escapeHtml(description)}" />
         <meta
           property="og:image"
-          content="https://pierreg99.github.io/Pierreg99-Pierreg99-Profile-Page/assets/social-card.jpg"
+          content="https://pierreg99.github.io/Pierreg99-Profile-Page/assets/social-card.jpg"
         />
         <meta name="twitter:card" content="summary_large_image" />
         <title>${escapeHtml(title)}</title>

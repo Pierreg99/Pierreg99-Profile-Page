@@ -33,7 +33,7 @@ export const server = createServer(async (request, response) => {
   try {
     const url = new URL(request.url, "http://localhost");
     const pathname = decodeURIComponent(url.pathname);
-    const canonicalBase = "/Pierreg99-Pierreg99-Profile-Page";
+    const canonicalBase = "/Pierreg99-Profile-Page";
     const requestBase =
       base ||
       (pathname === canonicalBase || pathname.startsWith(canonicalBase + "/")

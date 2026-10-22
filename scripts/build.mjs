@@ -89,11 +89,11 @@ pages.set(
   "404.html",
   layout({
     route: "404.html",
-    rootOverride: "/Pierreg99-Pierreg99-Profile-Page/",
+    rootOverride: "/Pierreg99-Profile-Page/",
     title: "Page not found — CRYO",
     description: "Find your way back to the CRYO workspace.",
     content:
-      '<div class="container page-content"><header class="page-heading"><p class="eyebrow">404 / OUTSIDE THE WORKSPACE</p><h1>A little off the map.</h1><p class="page-lead">This page could not be found. Return to the workspace to explore the projects and resources.</p></header><a class="button primary" href="/Pierreg99-Pierreg99-Profile-Page/">Back to the workspace →</a></div>',
+      '<div class="container page-content"><header class="page-heading"><p class="eyebrow">404 / OUTSIDE THE WORKSPACE</p><h1>A little off the map.</h1><p class="page-lead">This page could not be found. Return to the workspace to explore the projects and resources.</p></header><a class="button primary" href="/Pierreg99-Profile-Page/">Back to the workspace →</a></div>',
   }),
 );
 for (const [route, html] of pages) {

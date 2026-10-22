@@ -8,7 +8,7 @@ export default defineConfig({
   workers: 2,
   reporter: [["list"], ["html", { open: "never" }]],
   use: {
-    baseURL: "http://localhost:4173/Pierreg99-Pierreg99-Profile-Page/",
+    baseURL: "http://localhost:4173/Pierreg99-Profile-Page/",
     trace: "retain-on-failure",
     screenshot: "only-on-failure",
   },
@@ -24,8 +24,8 @@ export default defineConfig({
   ],
   webServer: {
     command:
-      "node scripts/serve.mjs --port 4173 --base /Pierreg99-Pierreg99-Profile-Page",
-    url: "http://localhost:4173/Pierreg99-Pierreg99-Profile-Page/",
+      "node scripts/serve.mjs --port 4173 --base /Pierreg99-Profile-Page",
+    url: "http://localhost:4173/Pierreg99-Profile-Page/",
     reuseExistingServer: !process.env.CI,
     timeout: 15000,
   },

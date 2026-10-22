@@ -1,5 +1,14 @@
 # ÄNDERUNGSPROTOKOLL — CRYO / Pierreg99
 
+## 22.10.2026
+
+### Pages-QA / aktueller Repository-Bestand
+- Vier belegte Featured-Projekte aus dem aktuellen öffentlichen Repository-Snapshot wiederhergestellt.
+- Browserprüfungen auf aktuelle Projektlinks, Bildpfade, Suchfilter und übersetzte Steuerungen ausgerichtet.
+- Lokale Pages-Vorschau, 404-Navigation, Open-Graph-Metadaten und Validierungsbasis an den kanonischen Repository-Slug angepasst.
+- Die generierte Galerie-Route bleibt erhalten; Animationen werden weiterhin erst nach Nutzeraktion abgespielt.
+
+
 ## 01.10.2026
 
 - Gemeinsame Templates, Browsermodule und ein responsives CRYO-Designsystem ersetzen duplizierte Inline-Seiten.

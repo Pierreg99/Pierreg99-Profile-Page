@@ -85,7 +85,7 @@ def validate(root: Path, base: str = "") -> tuple[int, list[str]]:
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--root", type=Path, default=REPOSITORY / "dist")
-    parser.add_argument("--base", default="/Pierreg99-Pierreg99-Profile-Page")
+    parser.add_argument("--base", default="/Pierreg99-Profile-Page")
     args = parser.parse_args()
     if not args.root.is_dir():
         parser.error("Build the site with npm run build before validating links.")

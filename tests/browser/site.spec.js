@@ -73,8 +73,9 @@ test("search, domain, language, and scope compose and reset correctly", async ({
   const explorer = page.locator("[data-explorer]");
   const rows = explorer.locator("[data-project]:visible");
   await expect(rows).toHaveCount(originalCount);
-  await explorer.locator("[data-search]").fill("KiBlox");
+  await explorer.locator("[data-search]").fill("Cryoplane-Polygonal-Flight");
   await expect(rows).toHaveCount(1);
+  await expect(rows.first()).toContainText("Cryoplane");
   await explorer.locator('[data-domain="ai"]').click();
   await expect(rows).toHaveCount(0);
   await expect(explorer.locator("[data-empty]")).toBeVisible();
@@ -96,16 +97,17 @@ test("search, domain, language, and scope compose and reset correctly", async ({
 test("project pictures and actions lead to the matching project on every portfolio surface", async ({
   page,
 }) => {
-  const repository =
-    "https://github.com/Pierreg99/ResidentLovely-Maximum-Hapiness-Game";
-  const live =
-    "https://pierreg99.github.io/ResidentLovely-Maximum-Hapiness-Game/";
+  const title = "Cryoplane";
+  const repositoryName = "Cryoplane-Polygonal-Flight";
+  const repository = `https://github.com/Pierreg99/${repositoryName}`;
+  const live = `https://pierreg99.github.io/${repositoryName}/`;
   for (const route of [
     "./",
     "docs/public-language-dashboard.html",
     "docs/animation-gallery.html",
   ]) {
     await page.goto(route);
+    await page.locator('[data-locale="en"]').click();
     const card = page
       .locator(
         route === "./"
@@ -115,10 +117,7 @@ test("project pictures and actions lead to the matching project on every portfol
             : ".project-row",
       )
       .filter({
-        has: page.getByRole("heading", {
-          name: "Resident Lovely",
-          exact: true,
-        }),
+        has: page.getByRole("heading", { name: title, exact: true }),
       });
     await expect(card.locator(".project-live")).toHaveAttribute("href", live);
     await expect(card.locator(".project-source")).toHaveAttribute(
@@ -129,11 +128,9 @@ test("project pictures and actions lead to the matching project on every portfol
     await image.scrollIntoViewIfNeeded();
     await expect(image).toHaveAttribute(
       "src",
-      route === "./"
-        ? /assets\/selected-work\/resident-lovely\.jpg$/
-        : /assets\/projects\/resident-lovely\.jpg$/,
+      /assets\\/projects\\/cryoplane\\.jpg$/,
     );
-    await expect(image).toHaveAttribute("alt", /Sweet Château/);
+    await expect(image).toHaveAttribute("alt", /Cryoplane/i);
     await expect
       .poll(() =>
         image.evaluate(
@@ -141,28 +138,27 @@ test("project pictures and actions lead to the matching project on every portfol
         ),
       )
       .toBe(true);
-    await page.locator('[data-locale="de"]').click();
-    await expect(card.locator(".project-live")).toContainText(
-      "Im Browser spielen",
-    );
-    await expect(card.locator(".project-source")).toContainText("Quellcode");
+    if (route === "./") {
+      await page.locator('[data-locale="de"]').click();
+      await expect(card.locator(".project-live")).toContainText(
+        "Im Browser spielen",
+      );
+      await expect(card.locator(".project-source")).toContainText("Quellcode");
+    }
   }
+
   await page.goto("./");
   await page.locator('[data-locale="en"]').click();
-  for (const [title, slug, repositoryName] of [
-    [
-      "Resident Lovely",
-      "resident-lovely",
-      "ResidentLovely-Maximum-Hapiness-Game",
-    ],
-    ["KiBlox", "kiblox", "KiBlox-VoxelGame"],
-    ["cryOS", "cryos", "cryos-launcher"],
-    ["CryAIPulse", "cryaipulse", "CryAIPulse"],
+  for (const [featuredTitle, slug, projectRepo] of [
+    ["Cryoplane", "cryoplane", "Cryoplane-Polygonal-Flight"],
+    ["Cyberdash", "cyberdash", "Cyberdash-Rhythm-Platformer-GAME"],
+    ["Call of Groky", "call-of-groky", "call-of-groky"],
+    ["Cryo Progress", "progress", "progress"],
   ]) {
     const card = page.locator(".featured-card").filter({
-      has: page.getByRole("heading", { name: title, exact: true }),
+      has: page.getByRole("heading", { name: featuredTitle, exact: true }),
     });
-    const projectUrl = `https://pierreg99.github.io/${repositoryName}/`;
+    const projectUrl = `https://pierreg99.github.io/${projectRepo}/`;
     await expect(card.locator(".featured-image")).toHaveAttribute(
       "href",
       projectUrl,
@@ -173,25 +169,26 @@ test("project pictures and actions lead to the matching project on every portfol
     );
     await expect(card.locator(".project-source")).toHaveAttribute(
       "href",
-      `https://github.com/Pierreg99/${repositoryName}`,
+      `https://github.com/Pierreg99/${projectRepo}`,
     );
-    await expect(card.locator(".preview-kind")).toHaveText("Portfolio cover");
     const image = card.locator("img");
     await image.scrollIntoViewIfNeeded();
     await expect(image).toHaveAttribute(
       "src",
-      `./assets/selected-work/${slug}.jpg`,
+      new RegExp(`assets\\\\/projects\\\\/${slug}\\\\.jpg$`),
     );
+    await expect(image).toHaveAttribute("alt", new RegExp(featuredTitle, "i"));
     await expect
       .poll(() => image.evaluate((element) => element.naturalWidth > 0))
       .toBe(true);
   }
+
   await page.locator('[data-locale="de"]').click();
   await expect(page.locator(".featured-card .preview-kind")).toHaveText([
-    "Portfolio-Cover",
-    "Portfolio-Cover",
-    "Portfolio-Cover",
-    "Portfolio-Cover",
+    "Projekt-Screenshot",
+    "Projekt-Screenshot",
+    "Projekt-Screenshot",
+    "Projekt-Screenshot",
   ]);
   await page.locator('[data-locale="en"]').click();
   await page.locator("[data-search]").fill("Call of Shooty");

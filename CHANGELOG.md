@@ -1,5 +1,14 @@
 # CHANGELOG — CRYO / Pierreg99
 
+## 2026-10-22
+
+### Pages QA / current repository inventory
+- Restored four evidence-backed featured projects from the live public repository snapshot.
+- Updated browser tests to verify current project links, images, search filters, and translated controls.
+- Aligned local Pages preview, 404 navigation, Open Graph metadata, and validation base path with the canonical repository slug.
+- Preserved the generated gallery route while keeping media playback opt-in.
+
+
 ## 2026-10-01
 
 - Replaced inline pages with shared static templates, browser modules, and a responsive CRYO design system.
