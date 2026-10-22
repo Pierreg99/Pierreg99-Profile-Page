@@ -1,153 +1,147 @@
 <div align="center">
 
-<img src="./assets/readme-banner.svg" alt="Pierreg99-Pierreg99-Profile-Page" width="100%">
+<img src="./assets/readme-banner.svg" alt="CRYO / Pierreg99 — Ideas into code. Code into experiences." width="100%">
 
-# Pierreg99-Pierreg99-Profile-Page
+<p>
+  <a href="https://pierreg99.github.io/Pierreg99-Profile-Page/">Live-Portfolio</a> ·
+  <a href="https://pierreg99.github.io/Pierreg99-Profile-Page/docs/animation-gallery.html">Visuelles Labor / Visual laboratory</a> ·
+  <a href="./docs/README.md">Dokumentation / Documentation</a>
+</p>
 
-Eigenes Repository. GitHub hat noch keine Beschreibung gesetzt.
-
-[![branch](https://img.shields.io/badge/branch-main-7EB8C9?style=flat-square)](https://github.com/Pierreg99/Pierreg99-Pierreg99-Profile-Page)
-[![sichtbarkeit](https://img.shields.io/badge/sichtbarkeit-öffentlich-141414?style=flat-square&labelColor=0A0A0A)](https://github.com/Pierreg99/Pierreg99-Pierreg99-Profile-Page)
-[![sprache](https://img.shields.io/badge/sprache-JavaScript-2A2A28?style=flat-square&labelColor=0A0A0A)](https://github.com/Pierreg99/Pierreg99-Pierreg99-Profile-Page)
+<p>
+  <a href="https://github.com/Pierreg99/Pierreg99-Profile-Page/actions/workflows/deploy-pages.yml"><img src="https://github.com/Pierreg99/Pierreg99-Profile-Page/actions/workflows/deploy-pages.yml/badge.svg?branch=main" alt="Validate and Deploy CRYO Profile workflow"></a>
+  <a href="https://github.com/Pierreg99/Pierreg99-Profile-Page"><img src="https://img.shields.io/badge/Public%20inventory-51-111827?style=flat-square" alt="Public repository inventory"></a>
+  <a href="https://github.com/Pierreg99/progress"><img src="https://img.shields.io/badge/Account%20sync-110%20repos-111827?style=flat-square" alt="Aggregate account sync status"></a>
+</p>
 
 </div>
 
+# CRYO / Pierreg99
+
+**DE:** Ein zweisprachiges Portfolio für Software, Browser-Games, interaktive 3D-Welten und KI-Experimente — mit direktem Zugang zu Demos, visuellen Studien und Quellcode.
+
+**EN:** A bilingual portfolio for software, browser games, interactive 3D worlds, and AI experiments — with direct access to demos, visual studies, and source code.
+
+## Bewegtes System / Motion showcase
+
 <table>
 <tr>
-<td width="58%" valign="top">
+<th width="50%">CRYO Pulse · Identity / Status</th>
+<th width="50%">CRYO Orbit · Engineering / Systems</th>
+</tr>
+<tr>
+<td><img src="./assets/animations/cryo-pulse.gif" alt="CRYO Pulse: a luminous cyan core emits concentric rings and rhythmic status pulses on a dark field." width="100%"></td>
+<td><img src="./assets/animations/cryo-orbit.gif" alt="CRYO Orbit: luminous cyan orbital rings rotate around a central core, representing connected systems." width="100%"></td>
+</tr>
+<tr>
+<td>**DE:** Ein leuchtender Kern und konzentrische Impulse bilden die CRYO-Identität in Bewegung.<br>**EN:** A luminous core and concentric pulses form the CRYO identity in motion.</td>
+<td>**DE:** Orbitale Ringe stehen für Verbindungen zwischen Ideen, Technologien und Systemen.<br>**EN:** Orbital rings represent connections between ideas, technologies, and systems.</td>
+</tr>
+</table>
 
-### Bestand
+Die GIFs oben sind die versionierten Original-Assets. Im [visuellen Labor](https://pierreg99.github.io/Pierreg99-Profile-Page/docs/animation-gallery.html) beginnt jede Szene mit einem Standbild; die Website lädt das optimierte lokale MP4 erst nach einer Wiedergabeaktion. Jedes Motion-Element bietet außerdem **GIF ansehen** und **Original-GIF herunterladen**. Die Wiedergabe respektiert reduzierte Bewegung.
 
-Keine Beschreibung im Repo-Metadatum. Dieses README erfindet deshalb keine Funktionen, Releases oder Laufzeiten.
+The GIFs above are the versioned original assets. In the [visual laboratory](https://pierreg99.github.io/Pierreg99-Profile-Page/docs/animation-gallery.html), each scene starts with a still; the site loads its optimized local MP4 only after the visitor starts playback. Each motion study also exposes **View animated GIF** and **Download original GIF** links. Playback respects reduced-motion preferences.
 
-Der Default-Branch `main` ist die Fläche, die zählt. Was nicht in diesem Baum liegt, ist kein Feature dieses Repos.
+## Ausgewählte Projekte / Featured work
 
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://pierreg99.github.io/Cryoplane-Polygonal-Flight/"><img src="./assets/projects/cryoplane.jpg" alt="Cryoplane screenshot: a low-poly polar landscape with flight instruments and radar." width="100%"></a>
+<h3>Cryoplane</h3>
+<p><strong>DE:</strong> Flug durch eine polygonale Polarlandschaft mit Wegpunkten, Instrumenten-HUD und Radar.<br><strong>EN:</strong> Fly across a low-poly polar landscape with waypoints, an instrument HUD, and radar.</p>
+<p><a href="https://pierreg99.github.io/Cryoplane-Polygonal-Flight/">Live-Demo / Play</a> · <a href="https://github.com/Pierreg99/Cryoplane-Polygonal-Flight">Quellcode / Source</a></p>
 </td>
-<td width="42%" valign="top">
-
-### Fakten
-
-| Feld | Wert |
-| --- | --- |
-| Owner | Pierreg99 |
-| Branch | `main` |
-| Sichtbarkeit | öffentlich |
-| Sprache | JavaScript |
-| Archiv | nein |
-
+<td width="50%" valign="top">
+<a href="https://pierreg99.github.io/Cyberdash-Rhythm-Platformer-GAME/"><img src="./assets/projects/cyberdash.jpg" alt="Cyberdash screenshot: neon platforms, hazards, and the Cyber Alleyway HUD." width="100%"></a>
+<h3>Cyberdash</h3>
+<p><strong>DE:</strong> Neon-Rhythmus-Plattformer mit 16 Levels, CRYO-Eissektor, Level-Editor und reaktiver Audio-Engine.<br><strong>EN:</strong> A neon rhythm platformer with 16 levels, a CRYO ice sector, level editor, and reactive audio engine.</p>
+<p><a href="https://pierreg99.github.io/Cyberdash-Rhythm-Platformer-GAME/">Live-Demo / Play</a> · <a href="https://github.com/Pierreg99/Cyberdash-Rhythm-Platformer-GAME">Quellcode / Source</a></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://pierreg99.github.io/call-of-groky/"><img src="./assets/projects/call-of-groky.jpg" alt="Call of Groky screenshot: first-person browser scene with mission objective and tactical HUD." width="100%"></a>
+<h3>Call of Groky</h3>
+<p><strong>DE:</strong> Browser-FPS-Prototyp mit Missionszielen, Waffensteuerung und taktischer HUD-Oberfläche.<br><strong>EN:</strong> A browser FPS prototype with mission objectives, weapon handling, and a tactical HUD.</p>
+<p><a href="https://pierreg99.github.io/call-of-groky/">Live-Demo / Play</a> · <a href="https://github.com/Pierreg99/call-of-groky">Quellcode / Source</a></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://pierreg99.github.io/progress/"><img src="./assets/projects/progress.jpg" alt="Cryo Progress screenshot: a public ledger with dated project tracks and status entries." width="100%"></a>
+<h3>Cryo Progress</h3>
+<p><strong>DE:</strong> Öffentliches Fortschrittsprotokoll mit datierten Statusangaben; private Arbeiten erscheinen nur unter Codenamen.<br><strong>EN:</strong> A public progress ledger with dated status entries; private work is represented only by codenames.</p>
+<p><a href="https://pierreg99.github.io/progress/">Fortschritt / Explore</a> · <a href="https://github.com/Pierreg99/progress">Quellcode / Source</a></p>
 </td>
 </tr>
 </table>
 
-## Lesen
+## Funktionen / Features
 
-1. Default-Branch öffnen.
-2. Nur Dateien in diesem Baum als Beleg nehmen.
-3. Issues und Diskussionen nur nutzen, wenn sie im Repo eingeschaltet sind.
+- **Öffentlicher Repository-Explorer / Public repository explorer:** Suchfeld sowie Filter für Domäne, primäre Sprache, eigene Projekte und öffentliche Forks. / Search and filters for domain, primary language, original projects, and public forks.
+- **DE / EN:** Sprachumschaltung in der Website; Projektbeschreibungen und Galerie-Texte bleiben zwischen Homepage, Explorer und visueller Galerie abgestimmt. / Runtime language switching with consistent project descriptions across the homepage, explorer, and gallery.
+- **Performance:** Responsive WebP-Varianten, lokale Fonts, lazy-loaded Bilder, optimierte Motion-Derivate und keine externe API-Abhängigkeit zur Laufzeit. / Responsive WebP variants, self-hosted fonts, lazy-loaded images, optimized motion derivatives, and no runtime API dependency.
+- **Barrierefreiheit / Accessibility:** Semantisches HTML, Tastaturbedienung, sichtbare Fokuszustände und Unterstützung für `prefers-reduced-motion`. Desktop- und Mobile-Browserprüfungen ergänzen Axe-Checks für WCAG 2.2. / Semantic HTML, keyboard operation, visible focus, reduced-motion support, desktop/mobile browser tests, and Axe checks for WCAG 2.2.
+- **Datenintegrität / Data integrity:** Das versionierte Inventar basiert auf öffentlichen GitHub-Metadaten. Private Repository-Namen werden nicht veröffentlicht; Sprachanteile zählen Projekte nach GitHubs primärer Sprache, nicht Codezeilen. / The versioned inventory uses public GitHub metadata only. Private repository names are never published; language shares count projects by GitHub primary language, not lines of code.
 
-## Grenze
-
-Keine Qualitätszahl, kein Paketstand und keine Runtime, die nicht als Datei in diesem Repo steht.
-
-<p align="center"><sub>Fläche nach Cryo Core Lite v1.5 · Tokens #0A0A0A / #141414 / #7EB8C9</sub></p>
-
-
-<details>
-<summary>Bisheriger README-Text</summary>
-
-<div align="center">
-
-<img src="./assets/cryo-header.svg" alt="CRYO / Pierreg99 — Ideas into code. Code into experiences." width="100%" />
-
-# CRYO / Pierreg99
-
-A bilingual portfolio of browser games, interface experiments, and AI visualizations — built to explore, with direct links to every project's source.
-
-[![GitHub](https://img.shields.io/badge/GitHub-Pierreg99-080e16?style=for-the-badge&logo=github)](https://github.com/Pierreg99)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Explore-91e5f7?style=for-the-badge)](https://pierreg99.github.io/Pierreg99-Pierreg99-Profile-Page/)
-[![Public inventory](https://img.shields.io/badge/Public%20inventory-51-111827?style=for-the-badge)](https://github.com/Pierreg99?tab=repositories)
-[![Account sync](https://img.shields.io/badge/Account%20sync-110%20repos-111827?style=for-the-badge)](https://github.com/Pierreg99/progress)
-
-[Open the portfolio →](https://pierreg99.github.io/Pierreg99-Pierreg99-Profile-Page/) · [Resources](./docs/) · [Public data](./assets/sync/public-repositories.json)
-
-</div>
-
-## Selected work
-
-| Resident Lovely | KiBlox |
-| --- | --- |
-| [![Resident Lovely — Sweet Château portfolio cover](assets/selected-work/resident-lovely.jpg)](https://pierreg99.github.io/ResidentLovely-Maximum-Hapiness-Game/) | [![KiBlox — voxel forest portfolio cover](assets/selected-work/kiblox.jpg)](https://pierreg99.github.io/KiBlox-VoxelGame/) |
-| Explore the Sweet Château in a pastel 3D adventure. Meet companions, complete quests, and experiment with crafting across connected destinations. | Build your own voxel world, take flight, and explore five themed realms. Campaign, creative, and free-play modes combine construction with Ki combat. |
-| [Play](https://pierreg99.github.io/ResidentLovely-Maximum-Hapiness-Game/) · [Source](https://github.com/Pierreg99/ResidentLovely-Maximum-Hapiness-Game) | [Play](https://pierreg99.github.io/KiBlox-VoxelGame/) · [Source](https://github.com/Pierreg99/KiBlox-VoxelGame) |
-| **cryOS** | **CryAIPulse** |
-| [![cryOS — desktop interface portfolio cover](assets/selected-work/cryos.jpg)](https://pierreg99.github.io/cryos-launcher/) | [![CryAIPulse — neural connections and heartbeat portfolio cover](assets/selected-work/cryaipulse.jpg)](https://pierreg99.github.io/CryAIPulse/) |
-| Switch between a phone launcher and Linux-inspired desktops in your browser. Explore app windows, themes, and gesture navigation in an interactive interface simulation. | Explore an agent mesh through glowing neural connections and heartbeat traces. An interactive playground presents illustrative activity in a distinctive cyan-and-rose interface. |
-| [Explore](https://pierreg99.github.io/cryos-launcher/) · [Source](https://github.com/Pierreg99/cryos-launcher) | [Explore](https://pierreg99.github.io/CryAIPulse/) · [Source](https://github.com/Pierreg99/CryAIPulse) |
-
-The four selected-work covers are edited from each project's own visuals. Their composition, lighting, and detail are refined for portfolio cards; they are labeled **Portfolio cover** on the website. [Cover sources and editing notes](assets/selected-work/README.md) describe the changes. The explorer and gallery retain the original screenshots and repository artwork.
-
-## Project collection
-
-| Project | Focus | Open |
-| --- | --- | --- |
-| **Resident Lovely** | Three.js · Adventure · WebGL | [Play](https://pierreg99.github.io/ResidentLovely-Maximum-Hapiness-Game/) · [Source](https://github.com/Pierreg99/ResidentLovely-Maximum-Hapiness-Game) |
-| **KiBlox** | TypeScript · Three.js · Voxels | [Play](https://pierreg99.github.io/KiBlox-VoxelGame/) · [Source](https://github.com/Pierreg99/KiBlox-VoxelGame) |
-| **cryOS** | TypeScript · Desktop UI · Simulation | [Explore](https://pierreg99.github.io/cryos-launcher/) · [Source](https://github.com/Pierreg99/cryos-launcher) |
-| **CryAIPulse** | JavaScript · Canvas · Visualization | [Explore](https://pierreg99.github.io/CryAIPulse/) · [Source](https://github.com/Pierreg99/CryAIPulse) |
-| **Cryoplane** | TypeScript · Flight · Three.js | [Play](https://pierreg99.github.io/Cryoplane-Polygonal-Flight/) · [Source](https://github.com/Pierreg99/Cryoplane-Polygonal-Flight) |
-| **Cyberdash** | JavaScript · Rhythm · Level editor | [Play](https://pierreg99.github.io/Cyberdash-Rhythm-Platformer-GAME/) · [Source](https://github.com/Pierreg99/Cyberdash-Rhythm-Platformer-GAME) |
-| **Call of Groky** | TypeScript · Three.js · FPS | [Play](https://pierreg99.github.io/call-of-groky/) · [Source](https://github.com/Pierreg99/call-of-groky) |
-| **Call of Shooty** | Three.js · Cannon-es · FPS | [Source](https://github.com/Pierreg99/futuristic-call-of-shooty) |
-| **AI for Everyone** | Learning · DE / EN · Interactive docs | [Explore](https://pierreg99.github.io/AI-FOR-Everyone-Learn-Docs/en/) · [Source](https://github.com/Pierreg99/AI-FOR-Everyone-Learn-Docs) |
-| **Command Wiki** | Linux · Windows · DE / EN | [Explore](https://pierreg99.github.io/Linux-Windows-Helpful-Commands-DOCS/) · [Source](https://github.com/Pierreg99/Linux-Windows-Helpful-Commands-DOCS) |
-| **CRYOGAMEHELP** | Guides · Team builder · Fan project | [Source](https://github.com/Pierreg99/inoffical-cryogamehelp-repo) |
-| **Cryo Progress** | Progress · Public data · Research | [Explore](https://pierreg99.github.io/progress/) · [Source](https://github.com/Pierreg99/progress) |
-| **CRYO Portfolio** | JavaScript · Accessibility · Static site | [Explore](https://pierreg99.github.io/Pierreg99-Pierreg99-Profile-Page/) · [Source](https://github.com/Pierreg99/Pierreg99-Pierreg99-Profile-Page) |
-| **Streamflixrouge** | Android · TV · Upstream project | [Source](https://github.com/Pierreg99/Streamflixrouge-OMEGA-FORK) |
-
-The 14 reviewed projects have descriptions, dedicated previews, and separate live/source links. English and German descriptions are shared across the homepage, searchable explorer, and visual gallery. Projects without a verified public demo lead to their repositories. [Preview sources and capture notes](assets/projects/README.md) identify repository artwork, public screenshots, local captures, and upstream imagery.
-
-## Public inventory
+## Öffentlicher Bestand / Public inventory
 
 <!-- inventory:start -->
 The synchronized inventory contains **51 public repositories**. The account summary records **110 repositories** (**59 private**); private names are never published. The public list comes from GitHub's public user API; the private count is a preserved aggregate from the progress hub.
 <!-- inventory:end -->
 
-One versioned snapshot powers the project explorer, public totals, and language distribution. Original projects and public forks are separately filterable. Missing language metadata remains visible. The chart describes project share by primary language, rather than lines of code.
+Der Snapshot, die Account-Zusammenfassung und die Sprachdaten lassen sich einzeln prüfen. / The snapshot, aggregate account summary, and language data are independently inspectable.
 
-- [Public repository snapshot](./assets/sync/public-repositories.json)
-- [Account summary](./assets/sync/account-summary.json)
-- [Public language dashboard](https://pierreg99.github.io/Pierreg99-Pierreg99-Profile-Page/docs/public-language-dashboard.html)
-- [Progress hub account source](https://github.com/Pierreg99/progress/blob/main/site/account.json)
+- [Öffentlicher Repository-Snapshot / Public repository snapshot](./assets/sync/public-repositories.json)
+- [Aggregierte Account-Zusammenfassung / Aggregate account summary](./assets/sync/account-summary.json)
+- [Sprach-Dashboard / Language dashboard](https://pierreg99.github.io/Pierreg99-Profile-Page/docs/public-language-dashboard.html)
+- [Dokumentationsindex / Documentation index](./docs/README.md)
+- [Asset-Katalog / Asset catalog](./assets/ASSET-CATALOG.md)
 
-## Run locally
+## Lokal entwickeln / Local development
 
-Requires Node.js 22+, Python 3.10+, and `ffmpeg` on your path.
+**Voraussetzungen / Requirements:** Node.js 22+, npm 10+, Python 3.12+ und `ffmpeg`.
 
-```sh
+~~~sh
 npm ci
 npm run dev
-```
+~~~
 
-Open `http://localhost:4173`. The development command rebuilds when source files change; refresh the browser to see the result.
+Der lokale Server läuft unter `http://localhost:4173`. Für den Produktions-Build und die vollständigen Prüfungen:
 
-```sh
-npm run build          # Create the complete static site in dist/
-npm run preview        # Serve the production build
-npm run check          # Lint, unit tests, build, links, and data validation
+The local development server runs at `http://localhost:4173`. Build and verify the production version with:
+
+~~~sh
+npm run build
+npm run check
 npx playwright install --with-deps chromium
-npm run test:browser   # Desktop/mobile, accessibility, interactions, and routes
-npm run sync           # Refresh the public inventory from GitHub
-```
+npm run test:browser
+npm run preview
+~~~
 
-The runtime uses plain HTML, CSS, and native browser modules. Dependencies are used only during authoring, build, and verification. The committed snapshots make builds reproducible without a live API dependency.
+`npm run sync` aktualisiert die öffentlichen Repository-Metadaten und den Snapshot. / `npm run sync` refreshes public repository metadata and the snapshot.
 
-## Project structure
+## Projektstruktur / Project structure
 
-```text
+~~~text
 src/
-  c
+  components/   Reusable page sections, cards, media and navigation
+  pages/        Homepage and generated static-page routes
+  client/       Search, filters, language and motion behavior
+  data/         Project records, asset registry and translations
+  styles/       Shared responsive design system
+assets/
+  animations/   Canonical original GIFs
+  projects/     Project screenshots and artwork
+  sync/         Versioned public metadata snapshots
+scripts/        Build, asset preparation, sync and validators
+tests/          Unit, Python and Playwright browser checks
+.github/
+  workflows/    Validation and GitHub Pages deployment
+~~~
 
-… gekürzt, Original bleibt in der Git-Historie.
+## Grenzen / Scope
 
-</details>
+Visuelle Animationen illustrieren Design und Konzept; sie sind kein technischer Leistungsnachweis. Historische Forschungswerte behalten ihr ursprüngliches Datum und ihre dokumentierten Einschränkungen.
+
+Motion and concept artwork illustrate visual design; they are not technical proof by themselves. Historical research values retain their original dates and documented limitations.
