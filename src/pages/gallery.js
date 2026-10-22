@@ -59,7 +59,10 @@ export function gallery({ projects }) {
     <div class="notice">
       ${icon("spark")}
       <p>
-        ${t("gallery.notice", "Every scene starts as a still. Play uses the optimized local MP4; open the original GIF in a new tab or download it. Playback is opt-in and respects reduced-motion.")}
+        ${t(
+          "gallery.notice",
+          "Every scene starts as a still. Play uses the optimized local MP4; open the original GIF in a new tab or download it. Playback is opt-in and respects reduced-motion.",
+        )}
       </p>
     </div>
     <section aria-labelledby="motion-title">
