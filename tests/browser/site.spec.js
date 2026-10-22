@@ -183,7 +183,9 @@ test("project pictures and actions lead to the matching project on every portfol
 
   await page.locator('[data-locale="de"]').click();
   await expect(page.locator(".featured-card .preview-kind")).toHaveCount(4);
-  await expect(page.locator(".featured-card .preview-kind").first()).not.toHaveText("");
+  await expect(
+    page.locator(".featured-card .preview-kind").first(),
+  ).not.toHaveText("");
   await page.locator('[data-locale="en"]').click();
   await page.locator("[data-search]").fill("Call of Shooty");
   const localProject = page.locator("[data-project]:visible");
