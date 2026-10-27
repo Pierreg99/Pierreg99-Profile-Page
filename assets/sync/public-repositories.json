@@ -64,16 +64,6 @@
       "topics": []
     },
     {
-      "name": "CRYNEX-MCP-LAB",
-      "url": "https://github.com/Pierreg99/CRYNEX-MCP-LAB",
-      "description": "",
-      "language": "TypeScript",
-      "fork": false,
-      "archived": false,
-      "stars": 1,
-      "topics": []
-    },
-    {
       "name": "CryNexLunaToolkit",
       "url": "https://github.com/Pierreg99/CryNexLunaToolkit",
       "description": "",
@@ -81,26 +71,6 @@
       "fork": false,
       "archived": false,
       "stars": 1,
-      "topics": []
-    },
-    {
-      "name": "CryoGPTCHATFREEBIE",
-      "url": "https://github.com/Pierreg99/CryoGPTCHATFREEBIE",
-      "description": "",
-      "language": "JavaScript",
-      "fork": false,
-      "archived": false,
-      "stars": 2,
-      "topics": []
-    },
-    {
-      "name": "CryoNexis-Lunar-Eclispe",
-      "url": "https://github.com/Pierreg99/CryoNexis-Lunar-Eclispe",
-      "description": "",
-      "language": "JavaScript",
-      "fork": false,
-      "archived": false,
-      "stars": 0,
       "topics": []
     },
     {
@@ -130,26 +100,6 @@
       "language": "TypeScript",
       "fork": false,
       "archived": true,
-      "stars": 0,
-      "topics": []
-    },
-    {
-      "name": "CryoVoxelArchitectAISTUDIO",
-      "url": "https://github.com/Pierreg99/CryoVoxelArchitectAISTUDIO",
-      "description": "AI STUDIO PROJECT VOXELARCHITECT",
-      "language": "TypeScript",
-      "fork": false,
-      "archived": false,
-      "stars": 0,
-      "topics": []
-    },
-    {
-      "name": "CryOVSeries-MarketingOfficial",
-      "url": "https://github.com/Pierreg99/CryOVSeries-MarketingOfficial",
-      "description": "CryOVSeries Marketing Official — public CryoSys Enterprise v3 claims, author sales pages, and validated source register. No prices, no private packets.",
-      "language": null,
-      "fork": false,
-      "archived": false,
       "stars": 0,
       "topics": []
     },
@@ -191,16 +141,6 @@
       "fork": true,
       "archived": false,
       "stars": 0,
-      "topics": []
-    },
-    {
-      "name": "futuristic-call-of-shooty",
-      "url": "https://github.com/Pierreg99/futuristic-call-of-shooty",
-      "description": "AAA Tactical Three.js First-Person Shooter Engine - CoD Parity with PBR Sobel Normals, PMREM HDR, Spring Kinetics, Touch Controls and Robotic AI",
-      "language": "HTML",
-      "fork": false,
-      "archived": false,
-      "stars": 1,
       "topics": []
     },
     {
@@ -484,5 +424,5 @@
       "topics": []
     }
   ],
-  "updatedAt": "2026-10-23T18:39:22+00:00"
+  "updatedAt": "2026-10-27T05:29:35+00:00"
 }
