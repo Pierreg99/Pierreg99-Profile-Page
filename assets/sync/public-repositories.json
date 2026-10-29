@@ -4,26 +4,6 @@
   "source": "https://api.github.com/users/Pierreg99/repos",
   "repositories": [
     {
-      "name": "7xx-Drivers-OMEGA-FORKS",
-      "url": "https://github.com/Pierreg99/7xx-Drivers-OMEGA-FORKS",
-      "description": "Collection of driver binaries for Snapdragon 7xx devices",
-      "language": "Batchfile",
-      "fork": true,
-      "archived": false,
-      "stars": 0,
-      "topics": []
-    },
-    {
-      "name": "AdrenoGpuDriver-Omega-Fork",
-      "url": "https://github.com/Pierreg99/AdrenoGpuDriver-Omega-Fork",
-      "description": "Module template for Qualcomm Snapdragon drivers (Adreno GPU). Script for editing driver extensions is planned for the future.",
-      "language": "Shell",
-      "fork": true,
-      "archived": false,
-      "stars": 0,
-      "topics": []
-    },
-    {
       "name": "Aetherwild-Game",
       "url": "https://github.com/Pierreg99/Aetherwild-Game",
       "description": "Aetherwild: browser creature-collection RPG. Original world, no borrowed creature names.",
@@ -187,16 +167,6 @@
       "name": "Mandarine-NEO-OMEGA-FORK",
       "url": "https://github.com/Pierreg99/Mandarine-NEO-OMEGA-FORK",
       "description": "A Citra fork with new features and hacks which are experimental and may not be present in Azahar. Continuation of Mandarine 3DS emulator.",
-      "language": null,
-      "fork": true,
-      "archived": false,
-      "stars": 0,
-      "topics": []
-    },
-    {
-      "name": "mangayomi-anime-extensions-OMEGA-FORK",
-      "url": "https://github.com/Pierreg99/mangayomi-anime-extensions-OMEGA-FORK",
-      "description": "A repo for mangayomi that gets tested regularly. Also works on AnymeX ",
       "language": null,
       "fork": true,
       "archived": false,
@@ -374,39 +344,9 @@
       "topics": []
     },
     {
-      "name": "termux-packages-OMEGA-FORK",
-      "url": "https://github.com/Pierreg99/termux-packages-OMEGA-FORK",
-      "description": "A package build system for Termux.",
-      "language": null,
-      "fork": true,
-      "archived": false,
-      "stars": 0,
-      "topics": []
-    },
-    {
       "name": "TermuxArch-OMEGA-FORK",
       "url": "https://github.com/Pierreg99/TermuxArch-OMEGA-FORK",
       "description": "You can use setupTermuxArch.bash 📲 to install Arch Linux in Amazon, Android, Chromebook and Windows.  https://sdrausty.github.io/TermuxArch/docs/install",
-      "language": null,
-      "fork": true,
-      "archived": false,
-      "stars": 0,
-      "topics": []
-    },
-    {
-      "name": "TermuxBlack-OMEGA-FORK",
-      "url": "https://github.com/Pierreg99/TermuxBlack-OMEGA-FORK",
-      "description": "Termux repository for hacking tools and packages",
-      "language": null,
-      "fork": true,
-      "archived": false,
-      "stars": 0,
-      "topics": []
-    },
-    {
-      "name": "zapstore-OMEGA-FORK",
-      "url": "https://github.com/Pierreg99/zapstore-OMEGA-FORK",
-      "description": "The open app store",
       "language": null,
       "fork": true,
       "archived": false,
@@ -424,5 +364,5 @@
       "topics": []
     }
   ],
-  "updatedAt": "2026-10-27T05:29:35+00:00"
+  "updatedAt": "2026-10-29T13:36:58+00:00"
 }
