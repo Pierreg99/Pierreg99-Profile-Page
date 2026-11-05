@@ -184,6 +184,16 @@
       "topics": []
     },
     {
+      "name": "nightwire",
+      "url": "https://github.com/Pierreg99/nightwire",
+      "description": "NIGHTWIRE — Neo-Duisburg night district. Three.js tactical shooter.",
+      "language": "JavaScript",
+      "fork": false,
+      "archived": false,
+      "stars": 0,
+      "topics": []
+    },
+    {
       "name": "Pierreg99-Profile-Page",
       "url": "https://github.com/Pierreg99/Pierreg99-Profile-Page",
       "description": "",
@@ -364,5 +374,5 @@
       "topics": []
     }
   ],
-  "updatedAt": "2026-10-29T13:36:58+00:00"
+  "updatedAt": "2026-11-05T22:13:03+00:00"
 }
