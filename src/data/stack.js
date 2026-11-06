@@ -83,7 +83,7 @@ export const stackGroups = [
     id: "engines",
     label: "03 / ENGINES & 3D",
     title: "Engines & interactive 3D",
-    description: "Graphics, physics, and custom game systems in public projects.",
+    description: "Graphics, physics, and custom systems in public projects.",
     glyph: "cube",
     items: [
       {
