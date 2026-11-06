@@ -16,6 +16,17 @@ export function home({ projects, snapshot }) {
     year: "numeric",
     timeZone: "UTC",
   });
+  const stackHeading = sectionHeading(
+    "03",
+    "stack",
+    "The tools behind the work.",
+    "Programming languages, frameworks, and engines linked to public code — not skill scores.",
+  );
+  const stackNote = t(
+    "stack.note",
+    "These examples link to public source files or dependency manifests. A listed dependency is not proof of a production release, usage depth, or expertise level.",
+  );
+  const stackDocs = t("stack.docs", "Explore technical documentation");
   const content = /* HTML */ `<section
       class="hero container"
       aria-labelledby="hero-title"
@@ -144,11 +155,13 @@ export function home({ projects, snapshot }) {
       </div>
     </section>
     <section class="container section" id="stack">
-      ${sectionHeading("03", "stack", "The tools behind the work.", "Programming languages, frameworks, and engines linked to public code — not skill scores.")}
+      ${stackHeading}
       ${stackAtlas()}
       <div class="stack-bottom">
-        <p>${t("stack.note", "These examples link to public source files or dependency manifests. A listed dependency is not proof of a production release, usage depth, or expertise level.")}</p>
-        <a class="text-link" href="./docs/index.html">${t("stack.docs", "Explore technical documentation")}${icon("arrow")}</a>
+        <p>${stackNote}</p>
+        <a class="text-link" href="./docs/index.html"
+          >${stackDocs}${icon("arrow")}</a
+        >
       </div>
     </section>
     <section class="container section" id="projects">
