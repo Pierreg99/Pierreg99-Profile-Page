@@ -3,6 +3,7 @@ import { layout } from "../components/layout.js";
 import { icon } from "../components/icons.js";
 import { motion } from "../components/media.js";
 import { explorer } from "../components/explorer.js";
+import { stackAtlas } from "../components/stack.js";
 import { resourceCard, sectionHeading } from "../components/sections.js";
 import { t } from "../lib/html.js";
 
@@ -142,15 +143,23 @@ export function home({ projects, snapshot }) {
         </div>
       </div>
     </section>
+    <section class="container section" id="stack">
+      ${sectionHeading("03", "stack", "The tools behind the work.", "Programming languages, frameworks, and engines linked to public code — not skill scores.")}
+      ${stackAtlas()}
+      <div class="stack-bottom">
+        <p>${t("stack.note", "These examples link to public source files or dependency manifests. A listed dependency is not proof of a production release, usage depth, or expertise level.")}</p>
+        <a class="text-link" href="./docs/index.html">${t("stack.docs", "Explore technical documentation")}${icon("arrow")}</a>
+      </div>
+    </section>
     <section class="container section" id="projects">
-      ${sectionHeading("03", "projects", "The open-source collection.", "Find a project, follow an idea, or explore the ecosystem.")}
+      ${sectionHeading("04", "projects", "The open-source collection.", "Find a project, follow an idea, or explore the ecosystem.")}
       ${explorer(projects)}
       <p class="caption">
         ${t("projects.caption", "Original projects and public forks are listed separately. Repository metadata comes from the public GitHub API.")}
       </p>
     </section>
     <section class="container section" id="resources">
-      ${sectionHeading("04", "resources", "More than the finished thing.", "The documentation, visual experiments, and research behind the work.")}
+      ${sectionHeading("05", "resources", "More than the finished thing.", "The documentation, visual experiments, and research behind the work.")}
       <div class="resource-grid">
         ${resourceCard({ href: "./docs/index.html", title: "Notes & documentation", text: "Profiles, technical references, and design notes. Available in English and German.", glyph: "book", key: "resource.docs", label: "Open resources" })}${resourceCard({ href: "./docs/animation-gallery.html", title: "The visual laboratory", text: "A closer look at the CRYO motion system, concept artwork, and visual studies.", glyph: "spark", key: "resource.gallery", label: "Explore the gallery" })}${resourceCard({ href: "./dashboard/index.html", title: "Research archive", text: "Historical portfolio evaluations with their dates, sources, and interpretation.", glyph: "layers", key: "resource.research", label: "View the archive" })}
       </div>

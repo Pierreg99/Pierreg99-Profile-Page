@@ -14,6 +14,7 @@ export function layout({
   const root = rootOverride ?? relativeRoot(route);
   const nav = [
     ["work", `${root}index.html#work`, "nav.work", "Work"],
+    ["stack", `${root}index.html#stack`, "nav.stack", "Stack"],
     ["projects", `${root}index.html#projects`, "nav.projects", "Projects"],
     ["docs", `${root}docs/`, "nav.docs", "Resources"],
     ["connect", `${root}index.html#connect`, "nav.connect", "Connect"],

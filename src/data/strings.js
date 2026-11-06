@@ -35,6 +35,40 @@ export const de = {
   "gallery.cryo-kiblox.description":
     "Eine Polarlandschaft aus eisblauen Voxel-Blöcken.",
   "nav.work": "Arbeiten",
+  "nav.stack": "Technologien",
+  "stack.eyebrow": "TECHNOLOGIE-ATLAS",
+  "stack.title": "Das Werkzeug hinter der Arbeit.",
+  "stack.description":
+    "Programmiersprachen, Frameworks und Engines mit Links zu öffentlichem Code – keine Kompetenzwertung.",
+  "stack.languages.label": "01 / SPRACHEN",
+  "stack.languages.title": "Programmiersprachen",
+  "stack.languages.description":
+    "Sprachen in öffentlich einsehbaren Projekten und Skripten.",
+  "stack.frameworks.label": "02 / FRAMEWORKS",
+  "stack.frameworks.title": "Frameworks & Werkzeuge",
+  "stack.frameworks.description":
+    "Bibliotheken und Laufzeitumgebungen ausgewählter öffentlicher Codebasen.",
+  "stack.engines.label": "03 / ENGINES & 3D",
+  "stack.engines.title": "Engines & interaktives 3D",
+  "stack.engines.description":
+    "Grafik, Physik und eigene Spielsysteme in öffentlichen Projekten.",
+  "stack.item.typescript.focus": "Typisierte Browserspiele",
+  "stack.item.javascript.focus": "Interaktive Weboberflächen",
+  "stack.item.python.focus": "Repository-Automatisierung",
+  "stack.item.htmlcss.focus": "Semantische Seiten und responsives Design",
+  "stack.item.react.focus": "Komponentenbasierte Oberflächen",
+  "stack.item.vite.focus": "Frontend-Builds",
+  "stack.item.express.focus": "Node.js-Dienste",
+  "stack.item.tailwind.focus": "Utility-basiertes Styling",
+  "stack.item.three.focus": "3D-Szenen im Browser",
+  "stack.item.r3f.focus": "3D-Rendering mit React",
+  "stack.item.cannon.focus": "3D-Physikintegration",
+  "stack.item.custom.focus": "Rhythmusmechaniken und Level-Editor",
+  "stack.source": "Code",
+  "stack.note":
+    "Die Beispiele verlinken öffentlichen Quellcode oder Paketmanifeste. Eine Abhängigkeit belegt weder einen Produktiv-Release noch Erfahrungsniveau oder Nutzungsumfang.",
+  "stack.docs": "Technische Dokumentation erkunden",
+
   "nav.projects": "Projekte",
   "nav.docs": "Ressourcen",
   "nav.connect": "Kontakt",
