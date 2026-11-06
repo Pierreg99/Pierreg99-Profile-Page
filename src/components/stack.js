@@ -1,6 +1,7 @@
 import { stackGroups } from "../data/stack.js";
 import { t, escapeHtml } from "../lib/html.js";
 import { icon } from "./icons.js";
+import { sectionHeading } from "./sections.js";
 
 function renderEntry(item) {
   return `<li>
@@ -31,4 +32,28 @@ function renderCard(group) {
 
 export function stackAtlas() {
   return `<div class="stack-grid">${stackGroups.map(renderCard).join("")}</div>`;
+}
+
+export function stackSection() {
+  const heading = sectionHeading(
+    "03",
+    "stack",
+    "The tools behind the work.",
+    "Programming languages, frameworks, and engines linked to public code — not skill scores.",
+  );
+  const note = t(
+    "stack.note",
+    "These examples link to public source files or dependency manifests. A listed dependency is not proof of a production release, usage depth, or expertise level.",
+  );
+  const docs = t("stack.docs", "Explore technical documentation");
+  return `<section class="container section" id="stack">
+    ${heading}
+    ${stackAtlas()}
+    <div class="stack-bottom">
+      <p>${note}</p>
+      <a class="text-link" href="./docs/index.html">
+        ${docs}${icon("arrow")}
+      </a>
+    </div>
+  </section>`;
 }
