@@ -26,13 +26,15 @@ export const stackGroups = [
         id: "python",
         name: "Python",
         focus: "Repository automation",
-        source: `${github}Pierreg99-Profile-Page/blob/main/scripts/sync_profile_assets.py`,
+        source:
+          `${github}Pierreg99-Profile-Page/blob/main/scripts/sync_profile_assets.py`,
       },
       {
         id: "htmlcss",
         name: "HTML / CSS",
         focus: "Semantic pages and responsive styling",
-        source: `${github}Pierreg99-Profile-Page/blob/main/src/styles/index.css`,
+        source:
+          `${github}Pierreg99-Profile-Page/blob/main/src/styles/index.css`,
       },
     ],
   },
@@ -40,14 +42,16 @@ export const stackGroups = [
     id: "frameworks",
     label: "02 / FRAMEWORKS",
     title: "Frameworks & tooling",
-    description: "Libraries and runtimes declared by selected public codebases.",
+    description:
+      "Libraries and runtimes declared by selected public codebases.",
     glyph: "layers",
     items: [
       {
         id: "react",
         name: "React",
         focus: "Component-based interfaces",
-        source: `${github}Nexo-Jarvis-AI-Futuristic-Assistant-Alpha/blob/main/package.json`,
+        source:
+          `${github}Nexo-Jarvis-AI-Futuristic-Assistant-Alpha/blob/main/package.json`,
       },
       {
         id: "vite",
@@ -59,7 +63,8 @@ export const stackGroups = [
         id: "express",
         name: "Express",
         focus: "Node.js services",
-        source: `${github}Nexo-Jarvis-AI-Futuristic-Assistant-Alpha/blob/main/package.json`,
+        source:
+          `${github}Nexo-Jarvis-AI-Futuristic-Assistant-Alpha/blob/main/package.json`,
       },
       {
         id: "tailwind",
@@ -87,7 +92,8 @@ export const stackGroups = [
         id: "r3f",
         name: "React Three Fiber",
         focus: "React-driven 3D rendering",
-        source: `${github}Nexo-Jarvis-AI-Futuristic-Assistant-Alpha/blob/main/package.json`,
+        source:
+          `${github}Nexo-Jarvis-AI-Futuristic-Assistant-Alpha/blob/main/package.json`,
       },
       {
         id: "cannon",
