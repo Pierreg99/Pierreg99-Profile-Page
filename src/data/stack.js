@@ -50,7 +50,7 @@ export const stackGroups = [
     id: "frameworks",
     label: "02 / FRAMEWORKS",
     title: "Frameworks & tooling",
-    description: "Libraries and runtimes declared by selected public projects.",
+    description: "Publicly declared libraries and runtimes.",
     glyph: "layers",
     items: [
       {
@@ -83,7 +83,7 @@ export const stackGroups = [
     id: "engines",
     label: "03 / ENGINES & 3D",
     title: "Engines & interactive 3D",
-    description: "Graphics, physics, and custom browser-game systems in public work.",
+    description: "Graphics, physics, and custom game systems in public projects.",
     glyph: "cube",
     items: [
       {
