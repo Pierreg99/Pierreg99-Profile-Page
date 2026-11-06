@@ -1,5 +1,6 @@
 import { test, expect } from "@playwright/test";
 import AxeBuilder from "@axe-core/playwright";
+import { enrichProjects } from "../../src/lib/portfolio.js";
 import { readFile } from "node:fs/promises";
 
 const snapshot = JSON.parse(
@@ -187,29 +188,64 @@ test("project pictures and actions lead to the matching project on every portfol
     page.locator(".featured-card .preview-kind").first(),
   ).not.toHaveText("");
   await page.locator('[data-locale="en"]').click();
-  await page.locator("[data-search]").fill("Call of Shooty");
-  const localProject = page.locator("[data-project]:visible");
-  await expect(localProject).toHaveCount(1);
-  await expect(localProject.locator(".project-source")).toHaveAttribute(
-    "href",
-    "https://github.com/Pierreg99/futuristic-call-of-shooty",
+  const sourceOnly = enrichProjects(repositories).find(
+    (project) => !project.fork && !project.liveUrl,
   );
-  await expect(localProject.locator(".project-live")).toHaveCount(0);
+  expect(sourceOnly, "Snapshot needs a source-only original").toBeDefined();
+  await page.locator("[data-search]").fill(sourceOnly.name);
+  const sourceOnlyRow = page
+    .locator("[data-project]:visible")
+    .filter({
+      has: page.getByRole("heading", {
+        name: sourceOnly.title,
+        exact: true,
+      }),
+    });
+  await expect(sourceOnlyRow).toHaveCount(1);
+  await expect(sourceOnlyRow.locator(".project-source")).toHaveAttribute(
+    "href",
+    sourceOnly.url,
+  );
+  await expect(sourceOnlyRow.locator(".project-live")).toHaveCount(0);
 });
 
 test("language cards filter the same original inventory", async ({ page }) => {
   await page.goto("docs/public-language-dashboard.html");
-  await page.locator('[data-language-card="Unreported"]').click();
-  await expect(page.locator("[data-project]:visible")).toHaveCount(
-    repositories.filter((repo) => !repo.fork && !repo.language).length,
-  );
-  await expect(
-    page.locator('[data-language-card="Unreported"]'),
-  ).toHaveAttribute("aria-pressed", "true");
-  await page.locator('[data-language-card="Unreported"]').click();
+  const card = page.locator("[data-language-card]").first();
+  const language = await card.getAttribute("data-language-card");
+  expect(language).toBeTruthy();
+  const expected = repositories.filter(
+    (repo) => !repo.fork && (repo.language || "Unreported") === language,
+  ).length;
+  await card.click();
+  await expect(page.locator("[data-project]:visible")).toHaveCount(expected);
+  await expect(card).toHaveAttribute("aria-pressed", "true");
+  await card.click();
   await expect(page.locator("[data-project]:visible")).toHaveCount(
     originalCount,
   );
+});
+
+test("technology atlas exposes source evidence and bilingual content", async ({
+  page,
+}) => {
+  await page.goto("./");
+  const atlas = page.locator("#stack");
+  await expect(atlas.locator(".stack-card")).toHaveCount(3);
+  const links = atlas.locator(".stack-list a");
+  await expect(links).toHaveCount(12);
+  const urls = await links.evaluateAll((anchors) =>
+    anchors.map((anchor) => anchor.getAttribute("href")),
+  );
+  expect(urls.every((url) => url.startsWith("https://github.com/Pierreg99/")))
+    .toBe(true);
+  await page.locator('[data-locale="de"]').click();
+  await expect(atlas.locator("h2")).toContainText("Werkzeug");
+  await expect(atlas.locator(".stack-card").first().locator("h3"))
+    .toHaveText("Programmiersprachen");
+  await page.locator('[data-locale="en"]').click();
+  await expect(atlas.locator(".stack-card").first().locator("h3"))
+    .toHaveText("Programming languages");
 });
 
 test("German applies to the interface and persists across navigation", async ({
