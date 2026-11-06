@@ -24,26 +24,6 @@
       "topics": []
     },
     {
-      "name": "CryNex-AI-Learning-",
-      "url": "https://github.com/Pierreg99/CryNex-AI-Learning-",
-      "description": "",
-      "language": "JavaScript",
-      "fork": false,
-      "archived": false,
-      "stars": 1,
-      "topics": []
-    },
-    {
-      "name": "CryNex-Command-Wiki",
-      "url": "https://github.com/Pierreg99/CryNex-Command-Wiki",
-      "description": "",
-      "language": "CSS",
-      "fork": false,
-      "archived": false,
-      "stars": 1,
-      "topics": []
-    },
-    {
       "name": "CryNexLunaToolkit",
       "url": "https://github.com/Pierreg99/CryNexLunaToolkit",
       "description": "",
@@ -374,5 +354,5 @@
       "topics": []
     }
   ],
-  "updatedAt": "2026-11-05T22:13:03+00:00"
+  "updatedAt": "2026-11-06T11:24:42+00:00"
 }
