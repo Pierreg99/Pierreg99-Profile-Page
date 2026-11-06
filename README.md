@@ -85,6 +85,14 @@ The GIFs above are the versioned original assets. In the [visual laboratory](htt
 - **Barrierefreiheit / Accessibility:** Semantisches HTML, Tastaturbedienung, sichtbare Fokuszustände und Unterstützung für `prefers-reduced-motion`. Desktop- und Mobile-Browserprüfungen ergänzen Axe-Checks für WCAG 2.2. / Semantic HTML, keyboard operation, visible focus, reduced-motion support, desktop/mobile browser tests, and Axe checks for WCAG 2.2.
 - **Datenintegrität / Data integrity:** Das versionierte Inventar basiert auf öffentlichen GitHub-Metadaten. Private Repository-Namen werden nicht veröffentlicht; Sprachanteile zählen Projekte nach GitHubs primärer Sprache, nicht Codezeilen. / The versioned inventory uses public GitHub metadata only. Private repository names are never published; language shares count projects by GitHub primary language, not lines of code.
 
+## Technologie-Atlas / Technology atlas
+
+Die Website enthält einen eigenständigen, responsiven Abschnitt mit **Programmiersprachen**, **Frameworks & Tooling** und **Engines & interaktivem 3D**. Jede Technologie führt zu einem öffentlich einsehbaren Repository, Quelltext oder Paketmanifest.
+
+The live portfolio includes dedicated **Programming languages**, **Frameworks & tooling**, and **Engines & interactive 3D** cards. Each entry links to publicly inspectable source or a dependency manifest. These are technology examples, not expertise scores or proof of deployment.
+
+[Technologie-Atlas öffnen / Explore the technology atlas](https://pierreg99.github.io/Pierreg99-Profile-Page/#stack)
+
 ## Öffentlicher Bestand / Public inventory
 
 <!-- inventory:start -->
