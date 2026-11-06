@@ -193,14 +193,9 @@ test("project pictures and actions lead to the matching project on every portfol
   );
   expect(sourceOnly, "Snapshot needs a source-only original").toBeDefined();
   await page.locator("[data-search]").fill(sourceOnly.name);
-  const sourceOnlyRow = page
-    .locator("[data-project]:visible")
-    .filter({
-      has: page.getByRole("heading", {
-        name: sourceOnly.title,
-        exact: true,
-      }),
-    });
+  const sourceOnlyRow = page.locator("[data-project]:visible").filter({
+    has: page.getByRole("heading", { name: sourceOnly.title, exact: true }),
+  });
   await expect(sourceOnlyRow).toHaveCount(1);
   await expect(sourceOnlyRow.locator(".project-source")).toHaveAttribute(
     "href",
@@ -237,15 +232,18 @@ test("technology atlas exposes source evidence and bilingual content", async ({
   const urls = await links.evaluateAll((anchors) =>
     anchors.map((anchor) => anchor.getAttribute("href")),
   );
-  expect(urls.every((url) => url.startsWith("https://github.com/Pierreg99/")))
-    .toBe(true);
+  expect(
+    urls.every((url) => url.startsWith("https://github.com/Pierreg99/")),
+  ).toBe(true);
   await page.locator('[data-locale="de"]').click();
   await expect(atlas.locator("h2")).toContainText("Werkzeug");
-  await expect(atlas.locator(".stack-card").first().locator("h3"))
-    .toHaveText("Programmiersprachen");
+  await expect(atlas.locator(".stack-card").first().locator("h3")).toHaveText(
+    "Programmiersprachen",
+  );
   await page.locator('[data-locale="en"]').click();
-  await expect(atlas.locator(".stack-card").first().locator("h3"))
-    .toHaveText("Programming languages");
+  await expect(atlas.locator(".stack-card").first().locator("h3")).toHaveText(
+    "Programming languages",
+  );
 });
 
 test("German applies to the interface and persists across navigation", async ({
