@@ -23,7 +23,7 @@ Edited on 2026-10-03 from the matching project visuals; [editing notes and prove
 
 ## Local technology icon system
 
-Twelve original SVG pictograms are versioned in [`technology/`](technology/) and shared by the website and GitHub README.
+Twelve original SVG pictograms are versioned under `assets/technology/` (for example [TypeScript](technology/typescript.svg)) and shared by the website and GitHub README.
 
 | Languages and markup | Frameworks and tooling | Graphics and engines |
 | --- | --- | --- |

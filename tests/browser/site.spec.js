@@ -232,9 +232,11 @@ test("technology atlas exposes source evidence and bilingual content", async ({
   const icons = atlas.locator(".stack-technology-icon");
   await expect(icons).toHaveCount(12);
   await expect(icons.first()).toHaveAttribute("alt", "");
-  await expect(
-    icons.first().evaluate((image) => image.complete && image.naturalWidth > 0),
-  ).resolves.toBe(true);
+  await expect
+    .poll(() =>
+      icons.first().evaluate((image) => image.complete && image.naturalWidth > 0),
+    )
+    .toBe(true);
   const urls = await links.evaluateAll((anchors) =>
     anchors.map((anchor) => anchor.getAttribute("href")),
   );

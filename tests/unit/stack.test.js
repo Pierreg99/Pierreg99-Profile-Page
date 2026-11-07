@@ -33,10 +33,16 @@ test("stack source references remain public and the section works without JavaSc
 
 test("all stack icons are local, labeled and linked in the redesigned README", async () => {
   const html = stackAtlas();
-  const readme = await readFile(new URL("../../README.md", import.meta.url), "utf8");
+  const readme = await readFile(
+    new URL("../../README.md", import.meta.url),
+    "utf8",
+  );
   for (const item of stackGroups.flatMap((group) => group.items)) {
     const path = `assets/technology/${item.id}.svg`;
-    const svg = await readFile(new URL(`../../${path}`, import.meta.url), "utf8");
+    const svg = await readFile(
+      new URL(`../../${path}`, import.meta.url),
+      "utf8",
+    );
     assert.ok(svg.includes("<title"));
     assert.ok(svg.includes("<desc"));
     assert.ok(svg.includes("viewBox"));
