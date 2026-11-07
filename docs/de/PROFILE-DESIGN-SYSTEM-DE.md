@@ -27,3 +27,9 @@ Animationen starten als Standbilder und laden erst auf Anforderung. Sie pausiere
 Web-Bedienelemente werden durch das gemeinsame Browsermodul übersetzt. Umfangreiche Referenzen bleiben unter `docs/de/` und `docs/en/` getrennt.
 
 Die Gestaltung liegt in `src/styles/tokens.css`, `base.css`, `layout.css`, `components.css` und `pages.css`. Die [Architekturreferenz](./ARCHITECTURE-DE.md) beschreibt Module und Veröffentlichung.
+
+## Eigene Technologie-Icons (November 2026)
+
+Zwölf lokal gespeicherte SVG-Piktogramme unter `assets/technology/` werden in der GitHub-README und den Technologie-Karten der Website gemeinsam verwendet. Es handelt sich um originelle CRYO-Metaphern und nicht um offizielle Markenlogos. Jedes Symbol hat eine sichtbare Beschriftung und einen Quellnachweis. Paketabhängigkeiten belegen weder Expertise noch Produktiv-Releases. Die SVG-Dateien besitzen Titel und Beschreibung; auf der Website wird der benachbarte Text für die Beschriftung genutzt, die Bilder sind dekorativ.
+
+Die neue README nutzt `assets/readme-flow.svg` für den Weg von Discovery über Implementierung und Prüfung zur Veröffentlichung. Die Inventar-Markierung und Zahlen-Badges bleiben durch den GitHub-Sync automatisiert.

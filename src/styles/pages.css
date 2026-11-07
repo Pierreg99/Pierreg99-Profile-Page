@@ -457,6 +457,21 @@
   font: 550 13px/1.3 var(--font-display);
   color: var(--text);
 }
+.stack-technology-name {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+.stack-technology-icon {
+  display: block;
+  width: 34px;
+  height: 34px;
+  flex: 0 0 34px;
+  border-radius: 8px;
+}
+.stack-technology-name span {
+  overflow-wrap: anywhere;
+}
 .stack-entry small {
   font-size: 10px;
   line-height: 1.4;
