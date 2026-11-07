@@ -27,3 +27,9 @@ Public totals and language shares come from one verified repository snapshot. Or
 English and German web controls are translated by the shared client module. Long reference documents remain separate under `docs/en/` and `docs/de/`.
 
 The source system is organized in `src/styles/tokens.css`, `base.css`, `layout.css`, `components.css`, and `pages.css`. See [the architecture reference](./ARCHITECTURE-EN.md) for module and delivery boundaries.
+
+## Original technology icon family (November 2026)
+
+Twelve self-hosted SVG pictograms under `assets/technology/` are shared by the GitHub README and website stack cards. These are original visual metaphors rather than official technology logos. A visible text label and source link accompany each icon. Source links show publicly inspectable code or dependency declarations, not proficiency or deploy status. Standalone SVGs have titles and descriptions; on the website adjacent text supplies the accessible name and the images use empty alt text.
+
+The updated README uses `assets/readme-flow.svg` to illustrate the Discover → Build → Verify → Share journey. The repository inventory marker and count badges remain managed by the GitHub sync process.

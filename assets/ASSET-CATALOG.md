@@ -21,11 +21,25 @@ Edited on 2026-10-03 from the matching project visuals; [editing notes and prove
 | `selected-work/cryos.jpg` | Icy-blue presentation of the Files and Settings desktop |
 | `selected-work/cryaipulse.jpg` | Cyan neural network, rose heartbeat, and agent figures |
 
+## Local technology icon system
+
+Twelve original SVG pictograms are versioned under `assets/technology/` (for example [TypeScript](technology/typescript.svg)) and shared by the website and GitHub README.
+
+| Languages and markup | Frameworks and tooling | Graphics and engines |
+| --- | --- | --- |
+| `typescript.svg` | `react.svg` | `three.svg` |
+| `javascript.svg` | `vite.svg` | `r3f.svg` |
+| `python.svg` | `express.svg` | `cannon.svg` |
+| `htmlcss.svg` | `tailwind.svg` | `custom.svg` |
+
+These original CRYO-style pictograms are not official brand logos. Each SVG includes a `title`, `desc` and scalable `viewBox`. Source links are maintained separately from the illustrations. The README flow illustration is `readme-flow.svg`.
+
 ## Canonical vector assets
 
 | Asset | Purpose |
 |---|---|
 | `cryo-header.svg` | Primary hero banner |
+| `readme-flow.svg` | Discover, build, verify, share diagram |
 | `cryo-mark.svg` | CRYO identity mark |
 | `immersive-dashboard.svg` | Master profile/system dashboard |
 | `immersive-orbit.svg` | Engineering-domain relationship view |

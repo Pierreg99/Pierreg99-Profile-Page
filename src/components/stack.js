@@ -7,7 +7,18 @@ function renderEntry(item) {
   return `<li>
     <a href="${escapeHtml(item.source)}" rel="noopener noreferrer">
       <span class="stack-entry">
-        <strong>${escapeHtml(item.name)}</strong>
+        <strong class="stack-technology-name">
+          <img
+            class="stack-technology-icon"
+            src="./assets/technology/${escapeHtml(item.id)}.svg"
+            width="34"
+            height="34"
+            loading="lazy"
+            decoding="async"
+            alt=""
+          />
+          <span>${escapeHtml(item.name)}</span>
+        </strong>
         <small>${t(`stack.item.${item.id}.focus`, item.focus)}</small>
       </span>
       <span class="stack-source">
